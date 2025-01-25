@@ -1,0 +1,50 @@
+name: Sync Repositories
+
+on:
+  push:
+    branches:
+      - main  # Déclencher ce workflow sur chaque push vers la branche `main` de mobifer
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout mobifer repository
+      uses: actions/checkout@v3
+      with:
+        repository: Mobifer/mobifer
+        token: ${{ secrets.GH_TOKEN }}
+        ref: main  # Vérifier les fichiers sur la branche principale de mobifer
+
+    - name: Clone mobifer.github.io repository
+      run: |
+        # Cloner mobifer.github.io pour y copier les fichiers
+        git clone --single-branch --branch main https://github.com/Mobifer/mobifer.github.io.git
+
+    - name: Copy files from mobifer to mobifer.github.io
+      run: |
+        # Utilisation de rsync pour copier les fichiers du repository mobifer dans mobifer.github.io
+        # Exclure les répertoires .git et mobifer.github.io
+        rsync -av --exclude='.git' --exclude='mobifer.github.io' --exclude='.github/worflows/sync.yml' ./ mobifer.github.io/
+
+    - name: Remove embedded git repository (if any)
+      run: |
+        cd mobifer.github.io
+        # Si le répertoire "mobifer" a été ajouté comme sous-module, on le supprime
+        git rm --cached mobifer || echo "No submodule to remove"
+
+    - name: Commit and push changes to mobifer.github.io
+      run: |
+        cd mobifer.github.io
+        # Configurer Git pour utiliser GH_TOKEN pour l'authentification
+        git remote set-url origin https://github.com/Mobifer/mobifer.github.io.git
+        git config --global user.name "GitHub Actions"
+        git config --global user.email "github-actions@users.noreply.github.com"
+        
+        # Utilisation de GH_TOKEN pour authentification dans le push
+        git remote set-url origin https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/Mobifer/mobifer.github.io.git
+
+        git add .
+        git commit -m "Sync changes from mobifer" || echo "No changes to commit"
+        git push origin main  # Pousse les changements dans mobifer.github.io
