@@ -1,0 +1,191 @@
+html, body{
+	height: 100%;
+	margin: 0;
+	flex: 1;
+	padding: 0 5px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+	font-family: "parisine-std", sans-serif;
+}
+
+body {
+	background-image: url('/parismetro/assets/icons/motif.jpg');
+	background-repeat: repeat;
+	background-size: auto;
+	background-attachment: fixed;
+}
+
+.centered{
+	text-align: center;
+}
+
+.header {
+	background-color: #0a0082;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.header a, a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: inherit;
+}
+
+a {
+	text-decoration: none;
+}
+
+.footer {
+	background-color: #0a0082;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	bottom: 0;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.footer a {
+	color: #ffce00;
+}
+
+
+.svg-container {
+	overflow: auto;
+	align-content: center;
+}
+
+.svg-container img {
+	height: 60px;
+	margin: 8px 8px 0px 0px;
+}
+
+.integrated img {
+	height: 1em;
+	width: 1em;
+	vertical-align: middle;
+}
+
+.box {
+	border: 4px solid black;
+	padding: 10px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	max-width: 700px;
+	background-color: white !important;
+	box-sizing: border-box;
+}
+
+.box object {
+	display: block;
+	width: 100%;
+}
+
+.box h2 {
+	margin-bottom: 10px;
+}
+
+.box p {
+	margin-top: -5px;
+}
+
+.box iframe {
+	display: block;
+	width: 100%; /* S'adapte à la largeur de la boîte */
+	height: auto; /* Garde les proportions */
+	aspect-ratio: 58/27; /* Définit un ratio large standard pour les vidéos */
+}
+
+.wip-box {
+	border: 4px solid #e85433;
+	padding: 5px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.wip-box h2 {
+	margin-top: 0px;
+}
+
+.license {
+	font-size: 11px;
+	text-align: center;
+	color: #aaaaaa;
+}
+
+.image-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.box th, .box td {
+	border: 1px solid #000;
+	padding: 8px;
+	font-weight: bold;
+}
+
+.title {
+	background-color: #0a0082;
+	color: white;
+	text-align: right;
+	border: 1px solid #fff !important;
+}
+
+.gallery {
+	text-align: center;
+	width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    max-height: 200px;
+    aspect-ratio: 1 / 1; /* Les images seront carrées */
+    object-fit: cover; /* Remplissage sans déformation */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+	margin: 5px;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.blue-box {
+	background-color: #0a0082;
+	color: white !important;
+	border-radius: 10px;
+	font-weight: bold;
+	padding: 5px;
+	display: inline-block;
+	word-break: break-word;
+	margin-bottom: 10px;
+}
+
+.repere {
+	border: 2px solid white;
+	font-style: italic;
+	display: inline-block;
+	padding: 3px;
+}
+
+.ptinteret {
+	background-color: #6e4823 !important;
+	border-radius: 5px;
+	font-style: italic;
+}
