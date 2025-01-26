@@ -1,7 +1,7 @@
 # MobiFer (anciennement Paris Métro Line Maps)
-Ce dépôt GitHub est le code source du site web https://illavoluntas.github.io/parismetro, qui a pour but de présenter de manière complète, ligne par ligne, les transports en commun ferrés d’Île-de-France (Métro, Tramway, RER, Transilien).
+Ce dépôt GitHub est le code source du site web https://mobifer.github.io, qui a pour but de présenter de manière complète, ligne par ligne, les transports en commun ferrés d’Île-de-France (Métro, Tramway, RER, Transilien).
 
-This GitHub repository hosts the source code for the website https://illavoluntas.github.io/parismetro, which aims to present in a complete way, line by line, the public train transportation system in Île-de-France (Métro, Tramway, RER, Transilien). 
+This GitHub repository hosts the source code for the website https://mobifer.github.io, which aims to present in a complete way, line by line, the public train transportation system in Île-de-France (Métro, Tramway, RER, Transilien). 
 
 ----
 **Déjà disponible**
