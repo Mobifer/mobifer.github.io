@@ -64,6 +64,25 @@ a {
 	margin: 8px 8px 0px 0px;
 }
 
+.container {
+	display: grid;
+	grid-template-columns: auto 1fr; /* Deux colonnes : icônes (auto) + texte (1fr) */
+	align-items: center; /* Alignement vertical au centre */
+	gap: 0.5em; /* Espacement entre les colonnes */
+}
+
+.container .integrated {
+	display: flex;
+	gap: 0.3em; /* Espacement entre les icônes */
+	height: 1.75em; /* Hauteur de 2 lignes pour les icônes */
+	align-items: stretch; /* Etire les icônes à la hauteur spécifiée */
+}
+
+.container .integrated img {
+	height: 100%; /* Les icônes prendront 100% de la hauteur du conteneur */
+	width: auto; /* Ajuste la largeur en fonction de la hauteur */
+}
+
 .integrated img {
 	height: 1em;
 	width: 1em;
@@ -157,21 +176,21 @@ a {
 }
 
 .gallery img {
-    width: 100%;
-    height: auto;
-    max-width: 300px;
-    max-height: 200px;
-    aspect-ratio: 1 / 1; /* Les images seront carrées */
-    object-fit: cover; /* Remplissage sans déformation */
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.2s, box-shadow 0.2s;
+	width: 100%;
+	height: auto;
+	max-width: 300px;
+	max-height: 200px;
+	aspect-ratio: 1 / 1; /* Les images seront carrées */
+	object-fit: cover; /* Remplissage sans déformation */
+	border-radius: 10px;
+	cursor: pointer;
+	transition: transform 0.2s, box-shadow 0.2s;
 	margin: 5px;
 }
 
 .gallery img:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transform: scale(1.1);
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .blue-box {
@@ -251,4 +270,8 @@ a {
 .discord:hover {
 	background-color: #4752c4;
 	transform: scale(1.1);
+}
+
+.shadowed {
+	filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
 }
