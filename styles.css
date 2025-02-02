@@ -196,9 +196,9 @@ a {
 .blue-box {
 	background-color: #0a0082;
 	color: white !important;
-	border-radius: 10px;
+	border-radius: 5px;
 	font-weight: bold;
-	padding: 5px;
+	padding: 6px;
 	display: inline-block;
 	word-break: break-word;
 	margin-bottom: 10px;
@@ -211,10 +211,24 @@ a {
 	padding: 3px;
 }
 
+.num-sortie {
+	border: 1px solid white;
+	display: inline-block;
+	padding: 3px;
+}
+
 .ptinteret {
 	background-color: #6e4823 !important;
 	border-radius: 5px;
 	font-style: italic;
+	font-weight: bold;
+	color: white !important;
+	padding: 6px;
+}
+
+.blue-box .ptinteret {
+	padding: 4px !important;
+	border-radius: 0px;
 }
 
 .hovereffect {
