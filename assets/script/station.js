@@ -138,12 +138,16 @@ document.addEventListener("DOMContentLoaded", function () {
 				if (sortie.description) {
 					html += ` ${sortie.description}`;
 					html += `<br>`;
+					var hasDescription = "style='margin-top: 5px !important;'";
+				}
+				else {
+					var hasDescription = "";
 				}
 				if (sortie.repere) {
-					html += ` <span class="repere">${sortie.repere}</span>`;
+					html += ` <span class="repere" ${hasDescription}>${sortie.repere}</span>`;
 				}
 				if (sortie.ptinteret) {
-					html += ` <span class="ptinteret">${sortie.ptinteret}</span>`;
+					html += ` <span class="ptinteret" ${hasDescription}>${sortie.ptinteret}</span>`;
 				}
 				
 				html += `</span>\n`;
