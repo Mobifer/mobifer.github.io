@@ -120,7 +120,13 @@ a {
 	display: block;
 	width: 100%; /* S'adapte à la largeur de la boîte */
 	height: auto; /* Garde les proportions */
-	aspect-ratio: 58/27; /* Définit un ratio large standard pour les vidéos */
+	aspect-ratio: 58/27;
+	border-radius: 10px;
+	margin-bottom: 5px !important;
+}
+
+.sncf {
+	aspect-ratio: 16/9 !important;
 }
 
 .wip-box {
@@ -202,17 +208,12 @@ a {
 	display: inline-block;
 	word-break: break-word;
 	margin-bottom: 10px;
+	width: fit-content;
 }
 
 .repere {
 	border: 2px solid white;
 	font-style: italic;
-	display: inline-block;
-	padding: 3px;
-}
-
-.num-sortie {
-	border: 1px solid white;
 	display: inline-block;
 	padding: 3px;
 }
@@ -224,6 +225,12 @@ a {
 	font-weight: bold;
 	color: white !important;
 	padding: 6px;
+	display: inline-block;
+}
+.num-sortie {
+	border: 1px solid white;
+	padding: 3px;
+	display: inline-block;
 }
 
 .blue-box .ptinteret {
