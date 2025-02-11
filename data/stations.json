@@ -156,5 +156,38 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Les%20Sablons&line=1&sens=La%20D%C3%A9fense&stationcode=43785&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Les%20Sablons&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=43785&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"}
 		]
+	},
+
+	"Argentine": {
+		"nom": "Argentine",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Accès_Station_Métro_Argentine_Avenue_Grande_Armée_-_Paris_XVI_(FR75)_-_2022-01-30_-_1.jpg/1024px-Accès_Station_Métro_Argentine_Avenue_Grande_Armée_-_Paris_XVI_(FR75)_-_2022-01-30_-_1.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Accès_Station_Métro_Argentine_Avenue_Grande_Armée_-_Paris_XVI_(FR75)_-_2022-01-30_-_1.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "1<sup>er</sup> septembre 1900",
+				"inaugural":"Obligado",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris"],
+				"frequentation": "2 079 212 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "rue des Acacias"},
+			{"numero": "2", "description": "avenue de la Grande Armée"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Argentine&line=1&sens=La%20Défense&stationcode=42213&linecode=C01371&destcode=La%20Défense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Argentine&line=1&sens=Château:b:de%20Vincennes&stationcode=42213&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
+		]
 	}
 }
