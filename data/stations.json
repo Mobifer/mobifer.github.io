@@ -31,9 +31,9 @@
 					{ "type": "train", "lines": ["L", "U"] },
 					{ "type": "tram", "lines": ["T2"] }
 				],
-				"ouverture": "Avril 1959 (SNCF)<br>19 janvier 1970 (RATP)<br>2 juillet 1997 (T2)<br>6 mai 2024 (RER E)",
-				"voies": "4 (RATP)<br>6 (SNCF)<br>2 (T2)",
-				"quais": "2 centraux (RER A)<br>2 centraux (Transilien L et U)<br>1 central (T2)<br>1 central (RER E)",
+				"ouverture": "Avril 1959 (SNCF)<br>19 janvier 1970 (RATP)<br>2 juillet 1997 (Tramway T2)<br>6 mai 2024 (RER E)",
+				"voies": "4 (RATP)<br>6 (SNCF)<br>2 (Tramway T2)",
+				"quais": "2 centraux (RER A)<br>2 centraux (Transilien L et U)<br>1 central (Tramway T2)<br>1 central (RER E)",
 				"zone_tarifaire": "3",
 				"accessible": "Oui",
 				"communes": ["Puteaux"],
