@@ -177,7 +177,7 @@
 				"quais": "2",
 				"zone_tarifaire": "1",
 				"accessible": "Non",
-				"communes": ["Paris XVI<sup>e</sup>, XVII<sup>e</sup>"],
+				"communes": ["Paris (XVI<sup>e</sup>, XVII<sup>e</sup>)"],
 				"frequentation": "2 079 212 voyageurs (2021)"
 			}
 		],
@@ -189,5 +189,41 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Argentine&line=1&sens=La%20Défense&stationcode=42213&linecode=C01371&destcode=La%20Défense%20(Grande%20Arche)&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Argentine&line=1&sens=Château:b:de%20Vincennes&stationcode=42213&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
 		]
+	},
+
+	"Reuilly – Diderot": {
+		"nom": "Reuilly – Diderot",
+		"lignes": [
+			{ "type": "metro", "lines": ["1", "8"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Acc%C3%A8s_Station_M%C3%A9tro_Reuilly_Diderot_Boulevard_Diderot_-_Paris_XII_%28FR75%29_-_2021-12-21_-_2.jpg/1280px-Acc%C3%A8s_Station_M%C3%A9tro_Reuilly_Diderot_Boulevard_Diderot_-_Paris_XII_%28FR75%29_-_2021-12-21_-_2.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_Reuilly_Diderot_Boulevard_Diderot_-_Paris_XII_(FR75)_-_2021-12-21_-_2.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1", "8"] }
+				],
+				"ouverture": "20 août 1900",
+				"voies": "4",
+				"quais": "4",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"commune(s)": ["Paris (XII<sup>e</sup>)"],
+				"frequentation": "4 580 091 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard Diderot"},
+			{"numero": "2", "description": "rue Claude Tillier"},
+			{"numero": "3", "description": "rue de Reuilly"},
+			{"numero": "4", "description": "rue de Chaligny"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Reuilly-Diderot&line=1&sens=La%20D%C3%A9fense&stationcode=44637&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Reuilly-Diderot&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=44637&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Reuilly-Diderot&line=8&sens=Balard&stationcode=44637&linecode=C01378&destcode=Balard&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Reuilly-Diderot&line=8&sens=Cr%C3%A9teil&stationcode=44637&linecode=C01378&destcode=Pointe%20du%20Lac&destcodealt=false"}
+		   ]
 	}
 }
