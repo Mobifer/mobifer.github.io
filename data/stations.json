@@ -225,5 +225,38 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Reuilly-Diderot&line=8&sens=Balard&stationcode=44637&linecode=C01378&destcode=Balard&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Reuilly-Diderot&line=8&sens=Cr%C3%A9teil&stationcode=44637&linecode=C01378&destcode=Pointe%20du%20Lac&destcodealt=false"}
 		   ]
+	},
+
+	"George V": {
+		"nom": "George V",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Entrée_Station_Métro_George_V_Paris_6.jpg/1024px-Entrée_Station_Métro_George_V_Paris_6.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Entrée_Station_Métro_George_V_Paris_6.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "13 août 1900",
+				"inaugural":"Alma",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (VIII<sup>e</sup>)"],
+				"frequentation": "3 842 260 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "Champs-Élysées"},
+			{"numero": "2", "description": "avenue George V"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=George%20V&line=1&sens=La%20D%C3%A9fense&stationcode=43283&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=George%20V&line=1&sens=Château:b:de%20Vincennes&stationcode=43283&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
+		]
 	}
 }
