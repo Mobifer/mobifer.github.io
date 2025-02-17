@@ -191,7 +191,7 @@
 		]
 	},
 
-	"Reuilly – Diderot": {
+	"Reuilly-Diderot": {
 		"nom": "Reuilly – Diderot",
 		"lignes": [
 			{ "type": "metro", "lines": ["1", "8"] }
