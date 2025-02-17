@@ -364,5 +364,43 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Charles%20De%20Gaulle-%C3%89toile&line=2&sens=Nation&stationcode=58759&linecode=C01372&destcode=Nation&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Charles%20De%20Gaulle-%C3%89toile&line=6&sens=Nation&stationcode=58759&linecode=C01376&destcode=Nation&destcodealt=false"}
 		]
+	},
+
+	"Franklin D Roosevelt": {
+		"nom": "Franklin D. Roosevelt",
+		"lignes": [
+			{ "type": "metro", "lines": ["1", "9"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Acc%C3%A8s_Station_M%C3%A9tro_Franklin_D_Roosevelt_Rond_Point_Champs_%C3%89lys%C3%A9es_Marcel_Dassault_-_Paris_VIII_%28FR75%29_-_2021-12-21_-_5.jpg/768px-Acc%C3%A8s_Station_M%C3%A9tro_Franklin_D_Roosevelt_Rond_Point_Champs_%C3%89lys%C3%A9es_Marcel_Dassault_-_Paris_VIII_%28FR75%29_-_2021-12-21_-_5.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_Franklin_D_Roosevelt_Rond_Point_Champs_%C3%89lys%C3%A9es_Marcel_Dassault_-_Paris_VIII_(FR75)_-_2021-12-21_-_5.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1", "9"] }
+				],
+				"ouverture": "19 juillet 1900",
+				"inaugural": "Marbeuf (Ligne 1)<br>Rond-Point des Champs-Élysées (Ligne 9)",
+				"voies": "4",
+				"quais": "4",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (VIII<sup>e</sup>)"],
+				"frequentation": "6 173 830 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "Champs-Élysées"},
+			{"numero": "2", "description": "rue de Marignan"},
+			{"numero": "3", "description": "avenue Montaigne"},
+			{"numero": "4", "description": "Rond-Point"},
+			{"numero": "5", "description": "avenue Franklin D. Roosevelt", "ptinteret": "Palais de la Découverte"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Franklin%20D.%20Roosevelt&line=1&sens=La%20D%C3%A9fense&stationcode=43026&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Franklin%20D.%20Roosevelt&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=43026&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Franklin%20D.%20Roosevelt&line=9&sens=Pont:b:de%20S%C3%A8vres&stationcode=43026&linecode=C01379&destcode=Pont%20de%20S%C3%A8vres&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Franklin%20D.%20Roosevelt&line=9&sens=Montreuil&stationcode=43026&linecode=C01379&destcode=Mairie%20de%20Montreuil&destcodealt=false"}
+		]
 	}
 }
