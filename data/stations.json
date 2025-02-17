@@ -298,7 +298,7 @@
 			}
 		],
 		"sorties": [
-			{"numero": "1", "ptinteret": "avenue de la Grande Armée"},
+			{"numero": "1", "description": "avenue de la Grande Armée"},
 			{"numero": "2", "description": "avenue de Malakoff"},
 			{"numero": "3", "description": "boulevard André Maurois"},
 			{"numero": "4", "description": "avenue Charles de Gaulle", "ptinteret": "Palais des Congrès"}
