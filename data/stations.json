@@ -209,7 +209,7 @@
 				"quais": "4",
 				"zone_tarifaire": "1",
 				"accessible": "Non",
-				"commune(s)": ["Paris (XII<sup>e</sup>)"],
+				"communes": ["Paris (XII<sup>e</sup>)"],
 				"frequentation": "4 580 091 voyageurs (2021)"
 			}
 		],
@@ -257,6 +257,56 @@
 		"enrail_links": [
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=George%20V&line=1&sens=La%20D%C3%A9fense&stationcode=43283&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=George%20V&line=1&sens=Château:b:de%20Vincennes&stationcode=43283&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
+		]
+	},
+
+	"Porte Maillot": {
+		"nom": "Porte Maillot",
+		"ptinteret": "Palais des Congrès",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] },
+			{ "type": "RER", "lines": ["C", "E"] },
+			{ "type": "tram", "lines": ["T3b"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Edicule_d%27entr%C3%A9e_de_la_gare_RER_E_de_Neuilly_-_Porte_Maillot_%282%29.jpg/1280px-Edicule_d%27entr%C3%A9e_de_la_gare_RER_E_de_Neuilly_-_Porte_Maillot_%282%29.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Edicule_d%27entr%C3%A9e_de_la_gare_RER_E_de_Neuilly_-_Porte_Maillot_(2).jpg",
+		"imageauthor": "Remontees",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "19 juillet 1900",
+				"voies": "4",
+				"quais": "4",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (XVI<sup>e</sup>, XVII<sup>e</sup>)"],
+				"frequentation": "4 138 301 voyageurs (2021)"
+			},
+			{
+				"lignes": [
+					{ "type": "RER", "lines": ["C", "E"] }
+				],
+				"ouverture": "2 mai 1854",
+				"voies": "4",
+				"quais": "1 central<br>2 latéraux",
+				"zone_tarifaire": "1",
+				"accessible": "Oui",
+				"communes": ["Paris (XVII<sup>e</sup>)"],
+				"frequentation": "3 875 725 voyageurs (2022)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "ptinteret": "avenue de la Grande Armée"},
+			{"numero": "2", "description": "avenue de Malakoff"},
+			{"numero": "3", "description": "boulevard André Maurois"},
+			{"numero": "4", "description": "avenue Charles de Gaulle", "ptinteret": "Palais des Congrès"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20Maillot&line=1&sens=La%20D%C3%A9fense&stationcode=415093&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20Maillot&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=415093&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
+			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=Neuilly%20-%20Porte%20Maillot"}
 		]
 	}
 }
