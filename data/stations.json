@@ -308,5 +308,61 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20Maillot&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=415093&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
 			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=Neuilly%20-%20Porte%20Maillot"}
 		]
+	},
+
+	"Charles de Gaulle-Etoile": {
+		"nom": "Charles de Gaulle – Étoile",
+		"lignes": [
+			{ "type": "metro", "lines": ["1", "2", "6"] },
+			{ "type": "RER", "lines": ["A"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Acc%C3%A8s_Station_M%C3%A9tro_Charles_Gaulle_%C3%89toile_Place_Charles_Gaulle_-_Paris_VIII_%28FR75%29_-_2021-12-21_-_5.jpg/1280px-Acc%C3%A8s_Station_M%C3%A9tro_Charles_Gaulle_%C3%89toile_Place_Charles_Gaulle_-_Paris_VIII_%28FR75%29_-_2021-12-21_-_5.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_Charles_Gaulle_%C3%89toile_Place_Charles_Gaulle_-_Paris_VIII_(FR75)_-_2021-12-21_-_5.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1", "2", "6"] }
+				],
+				"ouverture": "1<sup>er</sup> juillet 1900",
+				"inaugural": "Étoile",
+				"voies": "5",
+				"quais": "6",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (VIII<sup>e</sup>, XVII<sup>e</sup>), XVIII<sup>e</sup>)"],
+				"frequentation": "4 291 663 voyageurs (2021)"
+			},
+			{
+				"lignes": [
+					{ "type": "RER", "lines": ["A"] }
+				],
+				"ouverture": "19 janvier 1970",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Oui",
+				"communes": ["Paris (VIII<sup>e</sup>, XVII<sup>e</sup>), XVIII<sup>e</sup>)"],
+				"frequentation": "8,6 millions de voyageurs (2017)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "Champs-Élysées", "ptinteret": "Arc de Triomphe"},
+			{"numero": "2", "description": "avenue de Friedland"},
+			{"numero": "3", "description": "avenue Hoche"},
+			{"numero": "4", "description": "avenue de Wagram"},
+			{"numero": "5", "description": "avenue Carnot"},
+			{"numero": "6", "description": "avenue de la Grande Armée"},
+			{"numero": "7", "description": "rue de Presbourg"},
+			{"numero": "8", "description": "avenue Foch"},
+			{"numero": "9", "description": "rue Beaujon"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Charles%20De%20Gaulle-%C3%89toile&line=1&sens=La%20D%C3%A9fense&stationcode=58759&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Charles%20De%20Gaulle-%C3%89toile&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=58759&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Charles%20De%20Gaulle-%C3%89toile&line=2&sens=Porte:b:Dauphine&stationcode=58759&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Charles%20De%20Gaulle-%C3%89toile&line=2&sens=Nation&stationcode=58759&linecode=C01372&destcode=Nation&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Charles%20De%20Gaulle-%C3%89toile&line=6&sens=Nation&stationcode=58759&linecode=C01376&destcode=Nation&destcodealt=false"}
+		]
 	}
 }
