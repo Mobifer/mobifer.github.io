@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
 					switch (type) {
 						case "metro":
 							if (numero.endsWith("b")) {
-								return `/lines/m${numero.padStart(2, "0")}${numero.slice(-1)}.html`;
+								return `/lines/m0${numero}.html`;
 							}
 							else {
 								return `/lines/m${numero.padStart(2, "0")}.html`; // Métro 1 -> m01
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
 						case "tram":
 							// If numero == "T3a" or "T3b", return 03a ou 03b
 							if (numero.endsWith("a") || numero.endsWith("b")) {
-								return `/lines/t${(numero.replace("T", "")).padStart(2, "0")}${numero.slice(-1)}.html`;
+								return `/lines/t0${numero.replace("T", "")}.html`;
 							}
 							else {
 								return `/lines/t${(numero.replace("T", "")).padStart(2, "0")}.html`; // Tram 6 -> t06
