@@ -37,7 +37,7 @@
 				"zone_tarifaire": "3",
 				"accessible": "Oui",
 				"communes": ["Puteaux"],
-				"frequentation": "64,3 millions de voyageurs (2019)"
+				"frequentation": "64,3 M voyageurs (2019)"
 			}
 		],
 		"sorties": [
@@ -343,7 +343,7 @@
 				"zone_tarifaire": "1",
 				"accessible": "Oui",
 				"communes": ["Paris (VIII<sup>e</sup>, XVII<sup>e</sup>, XVIII<sup>e</sup>)"],
-				"frequentation": "8,6 millions de voyageurs (2017)"
+				"frequentation": "8,6 M voyageurs (2017)"
 			}
 		],
 		"sorties": [
@@ -553,67 +553,142 @@
 	},
 
 	"Louvre-Rivoli": {
-        "nom": "Louvre – Rivoli",
-        "lignes": [
-            { "type": "metro", "lines": ["1"] }
-        ],
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Station_Louvre_Rivoli_Métro_Paris_Ligne_1_-_Paris_I_(FR75)_-_2022-06-29_-_5.jpg/1280px-Station_Louvre_Rivoli_Métro_Paris_Ligne_1_-_Paris_I_(FR75)_-_2022-06-29_-_5.jpg",
-        "imagepage": "https://commons.wikimedia.org/wiki/File:Station_Louvre_Rivoli_Métro_Paris_Ligne_1_-_Paris_I_(FR75)_-_2022-06-29_-_5.jpg",
-        "imageauthor": "Chabe01",
-        "statistiques": [
-            {
-                "lignes": [
-                    { "type": "metro", "lines": ["1"] }
-                ],
-                "ouverture": "13 août 1900",
-                "inaugural": "Louvre",
-                "voies": "2",
-                "quais": "2",
-                "zone_tarifaire": "1",
-                "accessible": "Non",
-                "communes": ["Paris (I<sup>er</sup>)"],
-                "frequentation": "1 869 612 voyageurs (2021)"
-            }
-        ],
-        "sorties": [
-            {"numero": "1", "description": "rue de l’Amiral-de-Coligny"}
-        ],
-        "enrail_links": [
-            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Louvre-Rivoli&line=1&sens=La%20Défense&stationcode=44645&linecode=C01371&destcode=La%20Défense%20(Grande%20Arche)&destcodealt=false"},
-            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Louvre-Rivoli&line=1&sens=Château:b:de%20Vincennes&stationcode=44645&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
-        ]
-    },
+		"nom": "Louvre – Rivoli",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Station_Louvre_Rivoli_Métro_Paris_Ligne_1_-_Paris_I_(FR75)_-_2022-06-29_-_5.jpg/1280px-Station_Louvre_Rivoli_Métro_Paris_Ligne_1_-_Paris_I_(FR75)_-_2022-06-29_-_5.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Station_Louvre_Rivoli_Métro_Paris_Ligne_1_-_Paris_I_(FR75)_-_2022-06-29_-_5.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "13 août 1900",
+				"inaugural": "Louvre",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (I<sup>er</sup>)"],
+				"frequentation": "1 869 612 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "rue de l’Amiral-de-Coligny"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Louvre-Rivoli&line=1&sens=La%20Défense&stationcode=44645&linecode=C01371&destcode=La%20Défense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Louvre-Rivoli&line=1&sens=Château:b:de%20Vincennes&stationcode=44645&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
+		]
+	},
 
 	"Saint-Paul": {
-        "nom": "Saint-Paul",
+		"nom": "Saint-Paul",
 		"ptinteret": "Le Marais",
+		"lignes": [
+			{ "type": "metro", "lines": ["1"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/St-Paul_(2)_par_Cramos.JPG/1280px-St-Paul_(2)_par_Cramos.JPG",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:St-Paul_(2)_par_Cramos.JPG",
+		"imageauthor": "Cramos",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1"] }
+				],
+				"ouverture": "6 août 1900",
+				"inaugural": "Saint-Paul",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (IV<sup>e</sup>)"],
+				"frequentation": "4 295 803 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "rue de Rivoli"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Saint-Paul&line=1&sens=La%20Défense&stationcode=44881&linecode=C01371&destcode=La%20Défense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Saint-Paul&line=1&sens=Château:b:de%20Vincennes&stationcode=44881&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
+		]
+	},
+
+	"Hotel de Ville": {
+		"nom": "Hôtel de Ville",
+		"lignes": [
+			{ "type": "metro", "lines": ["1", "11"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Acc%C3%A8s_Station_M%C3%A9tro_H%C3%B4tel_Ville_Rue_Rivoli_-_Paris_IV_%28FR75%29_-_2021-12-21_-_3.jpg/1280px-Acc%C3%A8s_Station_M%C3%A9tro_H%C3%B4tel_Ville_Rue_Rivoli_-_Paris_IV_%28FR75%29_-_2021-12-21_-_3.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Acc%C3%A8s_Station_M%C3%A9tro_H%C3%B4tel_Ville_Rue_Rivoli_-_Paris_IV_(FR75)_-_2021-12-21_-_3.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["1", "11"] }
+				],
+				"ouverture": "19 juillet 1900",
+				"voies": "4",
+				"quais": "4",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (IV<sup>e</sup>)"],
+				"frequentation": "7,2 M voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "rue de Rivoli", "ptinteret": "Fondation Galeries Lafayette"},
+			{"numero": "2", "description": "rue du Renard", "ptinteret": "Centre Pompidou"},
+			{"numero": "3", "description": "rue de la Coutellerie"},
+			{"numero": "4", "description": "avenue Victoria"},
+			{"numero": "5", "description": "Hôtel de Ville"},
+			{"numero": "6", "description": "rue de Lobau", "repere": "Bazar de l’Hôtel de Ville"},
+			{"numero": "7", "description": "rue du Temple"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=H%C3%B4tel%20de%20Ville&line=1&sens=La%20D%C3%A9fense&stationcode=470524&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=H%C3%B4tel%20de%20Ville&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=470524&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=H%C3%B4tel%20de%20Ville&line=11&sens=Ch%C3%A2telet&stationcode=470524&linecode=C01381&destcode=Ch%C3%A2telet&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=H%C3%B4tel%20de%20Ville&line=11&sens=Rosny:b:Bois-Perrier&stationcode=470524&linecode=C01381&destcode=Rosny-sous-Bois&destcodealt=false"}
+		]
+	},
+
+	"Chateau de Vincennes": {
+        "nom": "Château de Vincennes",
         "lignes": [
             { "type": "metro", "lines": ["1"] }
         ],
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/St-Paul_(2)_par_Cramos.JPG/1280px-St-Paul_(2)_par_Cramos.JPG",
-        "imagepage": "https://commons.wikimedia.org/wiki/File:St-Paul_(2)_par_Cramos.JPG",
-        "imageauthor": "Cramos",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/MP05_Chateau_de_Vincennes.JPG/1280px-MP05_Chateau_de_Vincennes.JPG",
+        "imagepage": "https://commons.wikimedia.org/wiki/File:MP05_Chateau_de_Vincennes.JPG",
+        "imageauthor": "Mauritz90",
         "statistiques": [
             {
                 "lignes": [
                     { "type": "metro", "lines": ["1"] }
                 ],
-                "ouverture": "6 août 1900",
-                "inaugural": "Saint-Paul",
-                "voies": "2",
+                "ouverture": "24 mars 1934",
+                "voies": "4",
                 "quais": "2",
-                "zone_tarifaire": "1",
+                "zone_tarifaire": "2",
                 "accessible": "Non",
-                "communes": ["Paris (IV<sup>e</sup>)"],
-                "frequentation": "4 295 803 voyageurs (2021)"
+                "communes": ["Paris (XII<sup>e</sup>)", "Vincennes"],
+                "frequentation": "3 617 738 voyageurs (2021)"
             }
         ],
         "sorties": [
-            {"numero": "1", "description": "rue de Rivoli"}
+            {"numero": "1", "description": "avenue de Paris"},
+            {"numero": "2", "description": "avenue du Château"},
+            {"numero": "3", "description": "cours des Maréchaux"},
+            {"numero": "4", "description": "Fort Neuf"},
+            {"numero": "5", "description": "cours Marigny"},
+            {"numero": "6", "description": "Bois de Vincennes"}
         ],
         "enrail_links": [
-            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Saint-Paul&line=1&sens=La%20Défense&stationcode=44881&linecode=C01371&destcode=La%20Défense%20(Grande%20Arche)&destcodealt=false"},
-            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Saint-Paul&line=1&sens=Château:b:de%20Vincennes&stationcode=44881&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Ch%C3%A2teau%20de%20Vincennes&line=1&sens=La%20D%C3%A9fense&stationcode=42582&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"}
+           
         ]
-    }
+}
 }
