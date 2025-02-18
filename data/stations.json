@@ -794,5 +794,41 @@
             {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=B%C3%A9rault&line=1&sens=La%20D%C3%A9fense&stationcode=42318&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
             {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=B%C3%A9rault&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=42318&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"}
         ]
+	},
+
+	"Saint-Mande": {
+        "nom": "Saint-Mandé",
+        "lignes": [
+            { "type": "metro", "lines": ["1"] }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Station_Saint_Mandé_Métro_Paris_Ligne_1_-_Vincennes_(FR94)_-_2022-06-28_-_2.jpg/1280px-Station_Saint_Mandé_Métro_Paris_Ligne_1_-_Vincennes_(FR94)_-_2022-06-28_-_2.jpg",
+        "imagepage": "https://commons.wikimedia.org/wiki/File:Station_Saint_Mandé_Métro_Paris_Ligne_1_-_Vincennes_(FR94)_-_2022-06-28_-_2.jpg",
+        "imageauthor": "Chabe01",
+        "statistiques": [
+            {
+                "lignes": [
+                    { "type": "metro", "lines": ["1"] }
+                ],
+                "ouverture": "24 mars 1934",
+        		"inaugural": "Tourelle",
+                "voies": "2",
+                "quais": "2",
+                "zone_tarifaire": "2",
+                "accessible": "Non",
+                "communes": ["Saint-Mandé", "Vincennes", "Montreuil"],
+                "frequentation": "3 944 640 voyageurs (2021)"
+            }
+        ],
+        "sorties": [
+            {"numero": "1", "description": "avenue Joffre"},
+            {"numero": "2", "description": "avenue du Générak de Gaulle"},
+            {"numero": "3", "description": "avenue Foch"},
+            {"numero": "4", "description": "rue du Parc"},
+        	{"numero": "5", "description": "place de la Prévoyance"}
+        ],
+        "enrail_links": [
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Saint-Mandé&line=1&sens=La%20Défense&stationcode=47247&linecode=C01371&destcode=La%20Défense%20(Grande%20Arche)&destcodealt=false"},
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Saint-Mandé&line=1&sens=Château:b:de%20Vincennes&stationcode=47247&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
+        ]
 }
 }
