@@ -10,9 +10,9 @@ html, body{
 }
 
 body {
-	background-image: url('/assets/icons/motif2.jpg');
+	background-image: url('/assets/icons/motif.jpg');
 	background-repeat: repeat;
-	background-size: 800px;
+	background-size: 150px;
 	background-attachment: fixed;
 }
 
