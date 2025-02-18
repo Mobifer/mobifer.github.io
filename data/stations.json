@@ -760,5 +760,39 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Ch%C3%A2telet&line=14&sens=Saint-Denis%20-:b:Pleyel&stationcode=42587&linecode=C01384&destcode=Saint-Denis%20-%20Pleyel&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Ch%C3%A2telet&line=14&sens=A%C3%A9roport:b:d%27Orly&stationcode=42587&linecode=C01384&destcode=A%C3%A9roport%20d%27Orly&destcodealt=false"}
 		]
-	}
+	},
+
+	"Berault": {
+        "nom": "Bérault",
+        "lignes": [
+            { "type": "metro", "lines": ["1"] }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Station_B%C3%A9rault_M%C3%A9tro_Paris_Ligne_1_-_Vincennes_%28FR94%29_-_2022-06-28_-_1.jpg/1280px-Station_B%C3%A9rault_M%C3%A9tro_Paris_Ligne_1_-_Vincennes_%28FR94%29_-_2022-06-28_-_1.jpg",
+        "imagepage": "https://commons.wikimedia.org/wiki/File:Station_B%C3%A9rault_M%C3%A9tro_Paris_Ligne_1_-_Vincennes_(FR94)_-_2022-06-28_-_1.jpg",
+        "imageauthor": "Chabe01",
+        "statistiques": [
+            {
+                "lignes": [
+                    { "type": "metro", "lines": ["1"] }
+                ],
+                "ouverture": "24 mars 1934",
+                "voies": "2",
+                "quais": "2",
+                "zone_tarifaire": "2",
+                "accessible": "Non",
+                "communes": ["Saint-Mandé", "Vincennes"],
+                "frequentation": "2 106 827 voyageurs (2021)"
+            }
+        ],
+        "sorties": [
+            {"numero": "1", "description": "Hôpital Bégin"},
+            {"numero": "2", "description": "place Bérault"},
+            {"numero": "3", "description": "rue Segond"},
+            {"numero": "4", "description": "rue des Vignerons"}
+        ],
+        "enrail_links": [
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=B%C3%A9rault&line=1&sens=La%20D%C3%A9fense&stationcode=42318&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=B%C3%A9rault&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=42318&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"}
+        ]
+}
 }
