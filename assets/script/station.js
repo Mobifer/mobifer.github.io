@@ -34,13 +34,24 @@ document.addEventListener("DOMContentLoaded", function () {
 				function getLienLigne(type, numero) {
 					switch (type) {
 						case "metro":
-							return `/lines/m${numero.padStart(2, "0")}.html`; // Métro 1 -> m01
+							if (numero.endsWith("b")) {
+								return `/lines/m${numero.padStart(2, "0")}${numero.slice(-1)}.html`;
+							}
+							else {
+								return `/lines/m${numero.padStart(2, "0")}.html`; // Métro 1 -> m01
+							}
 						case "RER":
 							return `/lines/rer${numero}.html`; // RER A -> rerA
 						case "train":
 							return `/lines/train${numero}.html`; // Transilien L -> trainL
 						case "tram":
-							return `/lines/t${(numero.replace("T", "")).padStart(2, "0")}.html`; // Tram 6 -> t06
+							// If numero == "T3a" or "T3b", return 03a ou 03b
+							if (numero.endsWith("a") || numero.endsWith("b")) {
+								return `/lines/t${(numero.replace("T", "")).padStart(2, "0")}${numero.slice(-1)}.html`;
+							}
+							else {
+								return `/lines/t${(numero.replace("T", "")).padStart(2, "0")}.html`; // Tram 6 -> t06
+							}
 						default:
 							return "#"; // Sécurité si un type inconnu apparaît
 					}
@@ -89,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				<div class="license">© ${station.imageauthor} sur <a href="${station.imagepage}">Wikimedia Commons</a></div>`;
 			
 			html += `<div class="box image-center">
-				<h2 class="centered">Statistiques</h2>`;
+				<h2 class="centered">Statistiques et données</h2>`;
 			
 			// Génération des statistiques
 			station.statistiques.forEach(stats => {
