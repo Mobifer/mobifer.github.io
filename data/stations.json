@@ -704,7 +704,7 @@
 		"statistiques": [
 			{
 				"lignes": [
-					{ "type": "metro", "lines": ["1", "11"] }
+					{ "type": "metro", "lines": ["1", "4", "7", "11", "14"] }
 				],
 				"ouverture": "6 août 1900",
 				"inaugural": "Pont Notre-Dame (ligne 7)",
