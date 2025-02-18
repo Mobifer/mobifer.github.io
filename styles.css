@@ -157,6 +157,7 @@ a {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 .box table {
     width: 100%;
     border-collapse: collapse;
@@ -193,7 +194,6 @@ a {
     color: white;
     text-align: right;
     font-weight: bold;
-    white-space: nowrap; /* Empêche les retours à la ligne */
 }
 
 /* Coins arrondis */
