@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			let html = `
 				<p class="centered"><strong>Station</strong><br>
 				<span style="font-size: 80px;" class="shadowed">${lignesHTML}</span><br>
-				<span class="centered blue-box" style="font-size: 50px; padding: 5px; margin-top: 15px;"><strong>${station.nom}</strong></span>`;
+				<span class="centered terminus-box">${station.nom}</span>`;
 
 			if (station.ptinteret) {
 				html += `<br><span class="ptinteret" style="font-size: 30px;">${station.ptinteret}</span>`;
