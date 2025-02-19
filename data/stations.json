@@ -1003,9 +1003,7 @@
 				"quais": "6",
 				"zone_tarifaire": "1",
 				"accessible": "Non",
-				"communes": [
-					"Paris (XI<sup>e</sup>, XII<sup>e</sup>)"
-				],
+				"communes": ["Paris (XI<sup>e</sup>, XII<sup>e</sup>)"],
 				"frequentation": "6 050 797 voyageurs (2021)"
 			},
 			{
@@ -1017,9 +1015,7 @@
 				"quais": "2",
 				"zone_tarifaire": "1",
 				"accessible": "Non",
-				"communes": [
-					"Paris (IV<sup>e</sup>, XI<sup>e</sup>, XII<sup>e</sup>)"
-				],
+				"communes": ["Paris (XI<sup>e</sup>, XII<sup>e</sup>)"],
 				"frequentation": "3 492 188 voyageurs (2021)"
 			}
 		],
