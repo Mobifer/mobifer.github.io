@@ -985,6 +985,7 @@
 
 	"Nation": {
 		"nom": "Nation",
+		"repere": "Place des Antilles",
 		"lignes": [
 			{ "type": "metro", "lines": ["1", "2", "6", "9"] },
 			{ "type": "RER", "lines": ["A"] }
