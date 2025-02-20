@@ -1460,7 +1460,7 @@
 				"quais": "2",
 				"zone_tarifaire": "1",
 				"accessible": "Non",
-				"communes": ["Paris (IX<sup>e</sup>), (XVIII<sup>e</sup>) "],
+				"communes": ["Paris (IX<sup>e</sup>, XVIII<sup>e</sup>) "],
 				"frequentation": "2 167 570 voyageurs (2021)"
 			}
 		],
@@ -1491,7 +1491,7 @@
 				"quais": "2",
 				"zone_tarifaire": "1",
 				"accessible": "Non",
-				"communes": ["Paris (VIII<sup>e</sup>), (XVII<sup>e</sup>)"],
+				"communes": ["Paris (VIII<sup>e</sup>, XVII<sup>e</sup>)"],
 				"frequentation": "1 696 331 voyageurs (2021)"
 			}
 		],
