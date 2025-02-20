@@ -1207,42 +1207,142 @@
 	},
 
 	"Jaures": {
-        "nom": "Jaurès",
-        "lignes": [
-            { "type": "metro", "lines": ["2", "5", "7bis"]}
-        ],
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG/1260px-P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG",
-        "imagepage": "https://commons.wikimedia.org/wiki/File:P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG",
-        "imageauthor": "Mbzt",
-        "statistiques": [
-            {
-                "lignes": [
-                    { "type": "metro", "lines": ["2", "5", "7bis"] }
-                ],
-                "ouverture": "23 février 1903",
-                "voies": "6",
-                "quais": "6",
-                "zone_tarifaire": "1",
-                "accessible": "Non",
-                "communes": ["Paris (X<sup>e</sup>, XIX<sup>e</sup>)"],
-                "frequentation": "4 055 461 voyageurs (2021)"
-            }
-        ],
-        "sorties": [
-            {"numero": "1", "description": "boulevard de la Villette"},
-            {"numero": "2", "description": "quai de la Loire"},
-            {"numero": "3", "description": "avenue Jean Jaurès"},
-            {"numero": "4", "description": "avenue Secrétan"},
-            {"numero": "5", "description": "quai de Jemmapes"},
-            {"numero": "6", "description": "rue de Chaumont"}
-        ],
-        "enrail_links": [
-            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=2&sens=Porte:b:Dauphine&stationcode=43425&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
-            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=2&sens=Nation&stationcode=43425&linecode=C01372&destcode=Nation&destcodealt=false"},
-            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=5&sens=Bobigny&stationcode=43425&linecode=C01375&destcode=Bobigny%20Pablo%20Picasso&destcodealt=false"},
-            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=5&sens=Place%20d%27Italie&stationcode=43425&linecode=C01375&destcode=Place%20d%27Italie&destcodealt=false"},
-            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=7b&sens=Louis%20Blanc&stationcode=43425&linecode=C01387&destcode=Louis%20Blanc&destcodealt=false"},
-            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=7b&sens=Pré:b:Saint-Gervais&stationcode=43425&linecode=C01387&destcode=Pré-Saint-Gervais&destcodealt=false"}
-        ]
+		"nom": "Jaurès",
+		"lignes": [
+			{ "type": "metro", "lines": ["2", "5", "7bis"]}
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG/1260px-P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG",
+		"imageauthor": "Mbzt",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2", "5", "7bis"] }
+				],
+				"ouverture": "23 février 1903",
+				"voies": "6",
+				"quais": "6",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (X<sup>e</sup>, XIX<sup>e</sup>)"],
+				"frequentation": "4 055 461 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard de la Villette"},
+			{"numero": "2", "description": "quai de la Loire"},
+			{"numero": "3", "description": "avenue Jean Jaurès"},
+			{"numero": "4", "description": "avenue Secrétan"},
+			{"numero": "5", "description": "quai de Jemmapes"},
+			{"numero": "6", "description": "rue de Chaumont"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=2&sens=Porte:b:Dauphine&stationcode=43425&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=2&sens=Nation&stationcode=43425&linecode=C01372&destcode=Nation&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=5&sens=Bobigny&stationcode=43425&linecode=C01375&destcode=Bobigny%20Pablo%20Picasso&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=5&sens=Place%20d%27Italie&stationcode=43425&linecode=C01375&destcode=Place%20d%27Italie&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=7b&sens=Louis%20Blanc&stationcode=43425&linecode=C01387&destcode=Louis%20Blanc&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=7b&sens=Pré:b:Saint-Gervais&stationcode=43425&linecode=C01387&destcode=Pré-Saint-Gervais&destcodealt=false"}
+		]
+	},
+
+	"Couronnes": {
+		"nom": "Couronnes",
+		"lignes": [
+			{ "type": "metro", "lines": ["2"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Metro_de_Paris_-_Ligne_2_-_Couronnes_01.jpg/1280px-Metro_de_Paris_-_Ligne_2_-_Couronnes_01.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Metro_de_Paris_-_Ligne_2_-_Couronnes_01.jpg",
+		"imageauthor": "Clicsouris",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2"] }
+				],
+				"ouverture": "31 janvier 1903",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (XI<sup>e</sup>, XX<sup>e</sup>)"],
+				"frequentation": "2 151 515 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard de la Chapelle"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Couronnes&line=2&sens=Porte:b:Dauphine&stationcode=42772&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Couronnes&line=2&sens=Nation&stationcode=42772&linecode=C01372&destcode=Nation&destcodealt=false"}
+		]
+	},
+
+	"Barbes-Rochechouart": {
+		"nom": "Barbès – Rochechouart",
+		"lignes": [
+			{ "type": "metro", "lines": ["2", "4"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Station_Barb%C3%A8s_Rochechouart_M%C3%A9tro_Paris_Ligne_2_-_Paris_XVIII_%28FR75%29_-_2022-07-01_-_3.jpg/1280px-Station_Barb%C3%A8s_Rochechouart_M%C3%A9tro_Paris_Ligne_2_-_Paris_XVIII_%28FR75%29_-_2022-07-01_-_3.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Station_Barb%C3%A8s_Rochechouart_M%C3%A9tro_Paris_Ligne_2_-_Paris_XVIII_%28FR75%29_-_2022-07-01_-_3.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2", "4"] }
+				],
+				"ouverture": "26 mars 1903",
+				"voies": "4",
+				"quais": "4",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (IX<sup>e</sup>, X<sup>e</sup>, XVIII<sup>e</sup>)"],
+				"frequentation": "5 390 939 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard de Rochechouart"},
+			{"numero": "2", "description": "boulevard de Magenta"},
+			{"numero": "3", "description": "boulevard de Barbès"},
+			{"numero": "4", "description": "boulevard de la Chappelle"},
+			{"numero": "5", "description": "rue Guy Patin"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Barbès-Rochechouart&line=2&sens=Porte:b:Dauphine&stationcode=42280&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Barbès-Rochechouart&line=2&sens=Nation&stationcode=42280&linecode=C01372&destcode=Nation&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Barbès-Rochechouart&line=4&sens=Porte%20de:b:Clignancourt&stationcode=42280&linecode=C01374&destcode=Porte%20de%20Clignancourt&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Barbès-Rochechouart&line=4&sens=Bagneux&stationcode=42280&linecode=C01374&destcode=BAGNEUX-LUCIE%20AUBRAC&destcodealt=false"}
+		]
+	},
+
+	"La Chapelle": {
+		"nom": "La Chapelle",
+		"lignes": [
+			{ "type": "metro", "lines": ["2"]}
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/MF2000_at_La_Chapelle.jpg/1280px-MF2000_at_La_Chapelle.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:MF2000_at_La_Chapelle.jpg",
+		"imageauthor": "Matthew Black",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2"] }
+				],
+				"ouverture": "31 janvier 1903",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (X<sup>e</sup>, XVIII<sup>e</sup>)"],
+				"frequentation": "4 855 531 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard de la Chapelle"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=La%20Chapelle&line=2&sens=Porte:b:Dauphine&stationcode=43524&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=La%20Chapelle&line=2&sens=Nation&stationcode=43524&linecode=C01372&destcode=Nation&destcodealt=false"}
+			
+		]
 	}
 }
