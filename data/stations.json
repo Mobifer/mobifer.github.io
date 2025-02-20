@@ -1471,5 +1471,36 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Blanche&line=2&sens=Porte:b:Dauphine&stationcode=42337&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Blanche&line=2&sens=Nation&stationcode=42337&linecode=C01372&destcode=Nation&destcodealt=false"}
 		]
+	},
+
+	"Rome": {
+		"nom": "Rome",
+		"lignes": [
+			{ "type": "metro", "lines": ["2"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Métro_Rome_Guimard.jpg/1269px-Métro_Rome_Guimard.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Métro_Rome_Guimard.jpg",
+		"imageauthor": "Claude Shoshany",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2"] }
+				],
+				"ouverture": "6 novembre 1902",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (VIII<sup>e</sup>), (XVII<sup>e</sup>)"],
+				"frequentation": "1 696 331 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard des Batignolles"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Rome&line=2&sens=Porte:b:Dauphine&stationcode=44662&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Rome&line=2&sens=Nation&stationcode=44662&linecode=C01372&destcode=Nation&destcodealt=false"}
+		   ]
 	}
 }
