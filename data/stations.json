@@ -1209,7 +1209,7 @@
 	"Jaures": {
         "nom": "Jaurès",
         "lignes": [
-            { "type": "metro", "lines": ["2", "5", "7b"]}
+            { "type": "metro", "lines": ["2", "5", "7bis"]}
         ],
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG/1260px-P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG",
         "imagepage": "https://commons.wikimedia.org/wiki/File:P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG",
@@ -1217,7 +1217,7 @@
         "statistiques": [
             {
                 "lignes": [
-                    { "type": "metro", "lines": ["2", "5", "7b"] }
+                    { "type": "metro", "lines": ["2", "5", "7bis"] }
                 ],
                 "ouverture": "23 février 1903",
                 "voies": "6",
