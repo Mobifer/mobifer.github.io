@@ -1170,5 +1170,79 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Belleville&line=11&sens=Châtelet&stationcode=42311&linecode=C01381&destcode=Châtelet&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Belleville&line=11&sens=Rosny:b:Bois-Perrier&stationcode=42311&linecode=C01381&destcode=Rosny-sous-Bois&destcodealt=false"}
 		]
+	},
+
+	"Pere Lachaise": {
+		"nom": "Père Lachaise",
+		"lignes": [
+			{ "type": "metro", "lines": ["2", "3"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Entrance_to_P%C3%A8re_Lachaise_metro_station%2C_Paris.jpg/975px-Entrance_to_P%C3%A8re_Lachaise_metro_station%2C_Paris.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Entrance_to_P%C3%A8re_Lachaise_metro_station,_Paris.jpg",
+		"imageauthor": "Oderik",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2", "3"] }
+				],
+				"ouverture": "25 février 1903",
+				"voies": "4",
+				"quais": "4",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (XI<sup>e</sup>, XX<sup>e</sup>)"],
+				"frequentation": "3 465 307 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard de Ménilmontant"},
+			{"numero": "2", "description": "avenue de la République"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=P%C3%A8re%20Lachaise&line=2&sens=Porte:b:Dauphine&stationcode=44310&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=P%C3%A8re%20Lachaise&line=2&sens=Nation&stationcode=44310&linecode=C01372&destcode=Nation&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=siel&station=P%C3%A8re%20Lachaise&line=3&sens=Levallois&stationcode=44310&linecode=C01373&destcode=Pont%20de%20Levallois%20-%20B%C3%A9con&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=siel&station=P%C3%A8re%20Lachaise&line=3&sens=Gallieni&stationcode=44310&linecode=C01373&destcode=Gallieni&destcodealt=false"}
+		]
+	},
+
+	"Jaures": {
+        "nom": "Jaurès",
+        "lignes": [
+            { "type": "metro", "lines": ["2", "5", "7b"]}
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG/1260px-P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG",
+        "imagepage": "https://commons.wikimedia.org/wiki/File:P1080807_Paris_X_station_metro_Jaurès_boulevard_de_la_Villette_rwk.JPG",
+        "imageauthor": "Mbzt",
+        "statistiques": [
+            {
+                "lignes": [
+                    { "type": "metro", "lines": ["2", "5", "7b"] }
+                ],
+                "ouverture": "23 février 1903",
+                "voies": "6",
+                "quais": "6",
+                "zone_tarifaire": "1",
+                "accessible": "Non",
+                "communes": ["Paris (X<sup>e</sup>, XIX<sup>e</sup>)"],
+                "frequentation": "4 055 461 voyageurs (2021)"
+            }
+        ],
+        "sorties": [
+            {"numero": "1", "description": "boulevard de la Villette"},
+            {"numero": "2", "description": "quai de la Loire"},
+            {"numero": "3", "description": "avenue Jean Jaurès"},
+            {"numero": "4", "description": "avenue Secrétan"},
+            {"numero": "5", "description": "quai de Jemmapes"},
+            {"numero": "6", "description": "rue de Chaumont"}
+        ],
+        "enrail_links": [
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=2&sens=Porte:b:Dauphine&stationcode=43425&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=2&sens=Nation&stationcode=43425&linecode=C01372&destcode=Nation&destcodealt=false"},
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=5&sens=Bobigny&stationcode=43425&linecode=C01375&destcode=Bobigny%20Pablo%20Picasso&destcodealt=false"},
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=5&sens=Place%20d%27Italie&stationcode=43425&linecode=C01375&destcode=Place%20d%27Italie&destcodealt=false"},
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=7b&sens=Louis%20Blanc&stationcode=43425&linecode=C01387&destcode=Louis%20Blanc&destcodealt=false"},
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Jaurès&line=7b&sens=Pré:b:Saint-Gervais&stationcode=43425&linecode=C01387&destcode=Pré-Saint-Gervais&destcodealt=false"}
+        ]
 	}
 }
