@@ -1440,5 +1440,36 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Pigalle&line=12&sens=Aubervilliers&stationcode=44345&linecode=C01382&destcode=Mairie%20d'Aubervilliers&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Pigalle&line=12&sens=Mairie%20d'Issy&stationcode=44345&linecode=C01382&destcode=Mairie%20d'Issy&destcodealt=false"}
 		]
+	},
+
+	"Blanche": {
+		"nom": "Blanche",
+		"lignes": [
+			{ "type": "metro", "lines": ["2"] }
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Station_Blanche_Métro_Paris_Ligne_2_-_Paris_XVIII_(FR75)_-_2022-07-01_-_8.jpg/1280px-Station_Blanche_Métro_Paris_Ligne_2_-_Paris_XVIII_(FR75)_-_2022-07-01_-_8.jpg",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Station_Blanche_Métro_Paris_Ligne_2_-_Paris_XVIII_(FR75)_-_2022-07-01_-_8.jpg",
+		"imageauthor": "Chabe01",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2"] }
+				],
+				"ouverture": "21 octobre 1902",
+				"voies": "2",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (IX<sup>e</sup>), (XVIII<sup>e</sup>) "],
+				"frequentation": "2 167 570 voyageurs (2021)"
+			}
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard de Clichy"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Blanche&line=2&sens=Porte:b:Dauphine&stationcode=42337&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Blanche&line=2&sens=Nation&stationcode=42337&linecode=C01372&destcode=Nation&destcodealt=false"}
+		]
 	}
 }
