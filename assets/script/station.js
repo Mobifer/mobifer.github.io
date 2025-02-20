@@ -34,8 +34,8 @@ document.addEventListener("DOMContentLoaded", function () {
 				function getLienLigne(type, numero) {
 					switch (type) {
 						case "metro":
-							if (numero.endsWith("b")) {
-								return `/lines/m0${numero}.html`;
+							if (numero.endsWith("bis")) {
+								return `/lines/m0${numero.replace("bis", "")}b.html`;
 							}
 							else {
 								return `/lines/m${numero.padStart(2, "0")}.html`; // Métro 1 -> m01
