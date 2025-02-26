@@ -132,10 +132,28 @@ a {
 	aspect-ratio: 58/27;
 	border-radius: 10px;
 	margin-bottom: 5px !important;
+	border: none;
 }
 
 .sncf {
 	aspect-ratio: 16/9 !important;
+}
+
+.tram {
+	width: 100%;  /* Largeur de l'iframe */
+	border: none;
+	display: block;
+}
+
+@media (max-width: 568px) {
+	.tram {
+		height: 130px !important;
+	}
+}
+@media (min-width: 568px) {
+	.tram {
+		height: 160px !important;
+	}
 }
 
 .wip-box {

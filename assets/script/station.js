@@ -169,7 +169,11 @@ document.addEventListener("DOMContentLoaded", function () {
 			if (station.enrail_links && station.enrail_links.length > 0) {
 				html += `<div class="box image-center">`;
 				station.enrail_links.forEach(link => {
-					html += `<iframe src="${link.link}" class="${link.style} frameborder="0"></iframe>`;
+					if (link.style === "tram") {
+						html += `<iframe src="/addons/sieltram.html?stop=${link.link}&line=${link.line}" class="tram"></iframe>`
+					} else {
+						html += `<iframe src="${link.link}" class="${link.style} frameborder="0"></iframe>`;
+					}
 				});
 				html += `</div>
 					<div class="license" style="margin-top: 2px !important; margin-bottom: 8px;">

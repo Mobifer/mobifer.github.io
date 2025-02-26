@@ -52,7 +52,9 @@
 		],
 		"enrail_links": [
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=La%20D%C3%A9fense&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=71517&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
-			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=La%20D%C3%A9fense"}
+			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=La%20D%C3%A9fense"},
+			{"style": "tram", "link": "25642", "line": "2"},
+			{"style": "tram", "link": "25641", "line": "2"}
 		]
 	},
 
@@ -306,7 +308,9 @@
 		"enrail_links": [
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20Maillot&line=1&sens=La%20D%C3%A9fense&stationcode=71379&linecode=C01371&destcode=La%20D%C3%A9fense%20(Grande%20Arche)&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20Maillot&line=1&sens=Ch%C3%A2teau:b:de%20Vincennes&stationcode=71379&linecode=C01371&destcode=Ch%C3%A2teau%20de%20Vincennes&destcodealt=false"},
-			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=Neuilly%20-%20Porte%20Maillot"}
+			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=Neuilly%20-%20Porte%20Maillot"},
+			{"style": "tram", "link": "490882", "line": "3b"},
+			{"style": "tram", "link": "490892", "line": "3b"}
 		]
 	},
 
@@ -919,7 +923,9 @@
 		],
 		"enrail_links": [
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20de%20Vincennes&line=1&sens=La%20Défense&stationcode=44528&linecode=C01371&destcode=La%20Défense%20(Grande%20Arche)&destcodealt=false"},
-			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20de%20Vincennes&line=1&sens=Château:b:de%20Vincennes&stationcode=44528&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"}
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20de%20Vincennes&line=1&sens=Château:b:de%20Vincennes&stationcode=44528&linecode=C01371&destcode=Château%20de%20Vincennes&destcodealt=false"},
+			{"style": "tram", "link": "460560", "line": "3a"},
+			{"style": "tram", "link": "26534", "line": "3b"}
 		]
 	},
 
