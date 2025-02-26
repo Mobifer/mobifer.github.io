@@ -1575,5 +1575,55 @@
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=siel&station=Place%20de%20Clichy&line=13&sens=Asnières:b:Gennevilliers%20•%20Saint-Denis&stationcode=44372&linecode=C01383&destcode=Asnières%20-%20Gennevilliers%20Les%20Courtilles%20•%20Saint-Denis%20-%20Université&destcodealt=false"},
 			{"style": "ratp", "link": "https://enrail.org/ratp/?style=siel&station=Place%20de%20Clichy&line=13&sens=Châtillon:b:Montrouge&stationcode=44372&linecode=C01383&destcode=Châtillon-Montrouge&destcodealt=false"}
 		]
+	},
+
+	"Porte Dauphine": {
+		"nom": "Porte Dauphine",
+		"repere": "Maréchal de Lattre de Tassigny",
+		"lignes": [
+			{ "type": "metro", "lines": ["2"]},
+			{ "type": "RER", "lines": ["C"]},
+			{ "type": "tram", "lines": ["T3b"]}
+		],
+		"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Paris_Metro_2_Porte_Dauphine_Libellule.JPG/1280px-Paris_Metro_2_Porte_Dauphine_Libellule.JPG",
+		"imagepage": "https://commons.wikimedia.org/wiki/File:Paris_Metro_2_Porte_Dauphine_Libellule.JPG",
+		"imageauthor": "Bellomonte",
+		"statistiques": [
+			{
+				"lignes": [
+					{ "type": "metro", "lines": ["2"] }
+				],
+				"ouverture": "13 décembre 1900",
+				"voies": "3",
+				"quais": "2",
+				"zone_tarifaire": "1",
+				"accessible": "Non",
+				"communes": ["Paris (XVI<sup>e</sup>)"],
+				"frequentation": "2 021 656 voyageurs (2021)"
+			},
+			{
+                "lignes": [
+                    { "type": "RER", "lines": ["C"]}
+                ],
+                "ouverture": "13 décembre 1900",
+                "voies": "2",
+                "quais": "1",
+                "zone_tarifaire": "1",
+                "accessible": "Non",
+                "communes": ["Paris (XVI<sup>e</sup>)"],
+                "frequentation": "1 015 827 voyageurs (2022)"
+            }
+		],
+		"sorties": [
+			{"numero": "1", "description": "boulevard Lannes"},
+			{"numero": "2", "description": "avenue Foch"},
+			{"numero": "3", "description": "boulevard de l’Amiral-Bruix"},
+			{"numero": "4", "description": "avenue Bugeaud"}
+		],
+		"enrail_links": [
+			{"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Porte%20Dauphine&line=2&sens=Nation&stationcode=44509&linecode=C01372&destcode=Nation&destcodealt=false"},
+			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=Avenue%20Foch"},
+			{"style": "tram", "link": "490878", "line": "3b"}
+		]
 	}
 }
