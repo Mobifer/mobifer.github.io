@@ -29,9 +29,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="2.098489"
-     inkscape:cx="241.12588"
-     inkscape:cy="1285.2104"
+     inkscape:zoom="1.8340276"
+     inkscape:cx="240.72703"
+     inkscape:cy="1130.2993"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -1044,10 +1044,7 @@
            d="m 89.29,147.06 c 9.22,-4.62 17.01,-12.76 17.01,-27.29 0,-19.13 -14.17,-27.99 -27.99,-27.99 H 51.74 c -4.96,0 -7.8,3.89 -7.8,8.15 v 83.27 c 0,4.96 4.96,7.43 9.56,7.43 5.31,0 9.56,-2.48 9.56,-7.43 v -32.24 h 8.15 l 15.95,35.78 c 1.42,2.84 3.91,3.89 6.74,3.89 5.67,0 13.81,-5.31 10.63,-11.68 z M 68.74,136.78 h -5.68 v -28.7 h 6.74 c 8.85,0 16.65,3.9 16.65,13.82 0,12.05 -10.98,14.88 -17.72,14.88 z"
            id="path55509" /><path
            d="M 219.69,0 H 63.78 C 28.55,0 0,28.56 0,63.78 v 155.9 c 0,35.22 28.55,63.78 63.78,63.78 h 155.91 c 35.22,0 63.78,-28.56 63.78,-63.78 V 63.78 C 283.47,28.56 254.92,0 219.69,0 Z m 45.35,219.68 c 0,25.05 -20.31,45.35 -45.35,45.35 H 63.78 c -25.05,0 -45.35,-20.31 -45.35,-45.35 V 63.78 c 0,-25.05 20.31,-45.36 45.35,-45.36 h 155.91 c 25.05,0 45.35,20.31 45.35,45.36 z"
-           id="path55511" /></g></g><path
-       style="display:inline;fill:#25303b;stroke:#25303b;stroke-width:0.755905;stroke-linecap:square;stroke-dasharray:4.53543, 4.53543;stroke-dashoffset:0;stroke-opacity:1"
-       d="M 0.42796393,1079.3859 H 566.50112"
-       id="path151" /><text
+           id="path55511" /></g></g><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="53.692749"
@@ -1366,9 +1363,9 @@
        transform="translate(215.94861,-53.455255)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan96414"><tspan
+         id="tspan99461"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan96412">Parc</tspan></tspan></text><text
+           id="tspan99459">Parc</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -1377,9 +1374,9 @@
        transform="translate(216.2926,-44.703035)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan96418"><tspan
+         id="tspan99465"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan96416">de Saint-Cloud</tspan></tspan></text><a
+           id="tspan99463">de Saint-Cloud</tspan></tspan></text><a
        id="a3761"
        xlink:href="/stations.html?station=Boulogne-Jean+Jaures"
        target="_parent"
@@ -1526,9 +1523,9 @@
        transform="translate(214.62732,334.11763)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan96422"><tspan
+         id="tspan99469"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan96420">Javel</tspan></tspan></text><g
+           id="tspan99467">Javel</tspan></tspan></text><g
        id="g32151"
        transform="matrix(0.07333192,0,0,0.07333451,188.9763,891.19649)"
        style="display:inline"><g
@@ -2474,9 +2471,9 @@
        transform="translate(216.32396,712.07082)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan96426"><tspan
+         id="tspan99473"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan96424">Saint-Michel</tspan></tspan></text><text
+           id="tspan99471">Saint-Michel</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -2485,9 +2482,9 @@
        transform="translate(215.73197,722.07082)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan96430"><tspan
+         id="tspan99477"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan96428">Notre-Dame</tspan></tspan></text><text
+           id="tspan99475">Notre-Dame</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:1.88976"
        x="304.3418"
@@ -2638,7 +2635,7 @@
          transform="translate(60.051613,895.95033)"><tspan
            x="43.212147"
            y="209.78712"
-           id="tspan96432">Grandes</tspan></text><text
+           id="tspan99479">Grandes</tspan></text><text
          xml:space="preserve"
          style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:36.7828;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
          x="43.212147"
@@ -2647,7 +2644,7 @@
          transform="translate(60.051613,905.95033)"><tspan
            x="43.212147"
            y="209.78712"
-           id="tspan96434">Lignes</tspan></text></g><text
+           id="tspan99481">Lignes</tspan></text></g><text
        xml:space="preserve"
        style="font-weight:bold;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:start;text-anchor:start;display:inline;fill:#25303b;stroke-width:9.44882"
        x="305.1098"
@@ -3477,7 +3474,10 @@
    style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';stroke-width:9.44882;stroke-dasharray:none"
    id="tspan91719">Ivry – Gambetta</tspan> à la gare des <tspan
    style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';stroke-width:9.44882;stroke-dasharray:none"
-   id="tspan91721">Ardoines</tspan>.</tspan></text></g><metadata
+   id="tspan91721">Ardoines</tspan>.</tspan></text><path
+       style="display:inline;fill:#25303b;stroke:#25303b;stroke-width:0.755905;stroke-linecap:square;stroke-dasharray:4.53543, 4.53543;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 0.42796393,1079.3859 H 566.50112"
+       id="path151" /></g><metadata
      id="metadata1"><rdf:RDF><cc:Work
          rdf:about=""><cc:license
            rdf:resource="http://creativecommons.org/licenses/by/4.0/" /></cc:Work><cc:License
