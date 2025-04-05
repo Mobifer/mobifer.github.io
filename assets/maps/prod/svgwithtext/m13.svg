@@ -1266,7 +1266,7 @@
          y="382.56979"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Italic';text-align:start;text-anchor:start">Clichy</tspan></text><a
        id="a16933"
-       xlink:href="/stations.html?station=Les+Courtilles" target="_parent"
+       xlink:href="/stations.html?station=Les+Courtilles"
        target="_parent"
        transform="translate(0,226.00185)"><g
          id="g62515"
@@ -2017,7 +2017,7 @@
          y="382.56979"
          style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Italic';text-align:start;text-anchor:start">Saint-Ouen</tspan></text><a
        id="a38006"
-       xlink:href="/stations.html?station=Saint-Denis-Universite"><g
+       xlink:href="/stations.html?station=Saint-Denis-Universite" target="_parent"><g
          id="g151-3"
          transform="translate(134.43463,-9e-4)"><circle
            style="fill:#000000;stroke-width:0.332857"
