@@ -2499,7 +2499,7 @@ Université"
          style="text-align:start;text-anchor:start"
          id="path107410" /></g><a
        id="a38006"
-       xlink:href="/stations.html?station=Saint-Denis-Universite"><g
+       xlink:href="/stations.html?station=Saint-Denis-Universite" target="_parent"><g
          id="g151-3"
          transform="translate(134.43463,-9e-4)"><circle
            style="fill:#000000;stroke-width:0.332857"
@@ -5035,7 +5035,7 @@ Porte de Paris"
          d="m 533.13736,1299.7054 c 0,-2.624 -1.30133,-5.3333 -4.82132,-5.3333 -3.648,0 -5.26933,3.136 -5.26933,6.144 0,3.5413 2.24,5.9733 5.80266,5.9733 1.664,0 3.17866,-0.4907 4.05333,-0.896 l -0.78933,-2.2187 c -0.59734,0.32 -1.68534,0.7467 -2.70933,0.7467 -1.92,0 -3.392,-1.088 -3.392,-3.1147 0,-0.021 0,-0.043 0,-0.064 h 7.06132 c 0.0427,-0.384 0.064,-0.8746 0.064,-1.2373 z m -2.81599,-0.7893 h -4.37333 c 0,-1.0027 0.53333,-2.4534 2.24,-2.4534 1.51466,0 2.23999,1.2587 2.13333,2.4534 z"
          id="path108475" /></g><a
        id="a59378"
-       xlink:href="/stations.html?station=Chatillon-Montrouge"
+       xlink:href="/stations.html?station=Chatillon-Montrouge" target="_parent"
        transform="translate(0,5.9999993)"><circle
          style="fill:#000000;stroke-width:0.332857"
          id="circle151-6-7"
