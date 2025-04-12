@@ -410,10 +410,20 @@ a {
   }
 
 .slide {
-	display: none;
 	position: absolute;
 	width: 100%;
 	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: opacity 0.75s ease-in-out;
+	pointer-events: none;
+}
+
+.slide.active {
+	opacity: 1;
+	pointer-events: auto;
+	z-index: 1;
 }
 
 .slide img {

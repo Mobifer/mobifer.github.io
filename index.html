@@ -124,23 +124,23 @@
 	<script src="/addons/footer.js"></script>
 	<script>
 		let slideIndex = 0;
-
-		function showSlides() {
 		const slides = document.getElementsByClassName("slide");
 
-		for (let i = 0; i < slides.length; i++) {
-			slides[i].style.display = "none";
-		}
+		function showSlides() {
+			for (let i = 0; i < slides.length; i++) {
+				slides[i].classList.remove("active");
+			}
 
-		slideIndex++;
-		if (slideIndex > slides.length) { slideIndex = 1; }
+			slideIndex++;
+			if (slideIndex > slides.length) { slideIndex = 1; }
 
-		slides[slideIndex - 1].style.display = "block";
+			slides[slideIndex - 1].classList.add("active");
 
-		setTimeout(showSlides, 3000); // Change image every 3 seconds
+			setTimeout(showSlides, 3000); // or any interval you like
 		}
 
 		showSlides();
+
 	</script>
 </body>
 </html>
