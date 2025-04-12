@@ -1,12 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" version="1.2" viewBox="0 0 92 92">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.2"
+   viewBox="0 0 283.5 283.5"
+   id="svg56331"
+   sodipodi:docname="train_V_couleur_RVB.svg"
+   width="283.5"
+   height="283.5"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs56335">
+	
+	
+</defs>
+  <sodipodi:namedview
+     id="namedview56333"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.3155765"
+     inkscape:cx="35.725782"
+     inkscape:cy="119.33931"
+     inkscape:window-width="1920"
+     inkscape:window-height="1008"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg56331" />
   <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
-  <g>
-    <g id="Premier_plan">
-      <g>
-        <path d="M70.8396947,92.0000095H21.1600611c-11.6677863,0-21.1600611-9.4922667-21.1600611-21.1600527V21.1599581C0,9.4922943,9.4922748.0000095,21.1600611.0000095h49.6796336C82.5077252.0000095,92,9.4922943,92,21.1599581v49.6799987c0,11.667786-9.4922748,21.1600527-21.1603053,21.1600527" fill="#6e6e00"/>
-        <path d="M52.3280477,72.3788633h-12.5805617L20.5694913,18.1440279h12.8107817l9.7424294,29.533864c1.8411843,5.6765527,2.7617765,9.9723613,3.1452845,12.0437657h.153288c.3837962-2.0714044,1.2274562-5.9834168,3.1452845-11.8904777l9.8190734-29.687152h12.0437657l-19.1013507,54.2348354Z" fill="#fff"/>
-      </g>
+  <g
+     id="g56536">
+    <g
+       id="g56531">
+      <path
+         class="st0"
+         d="M 219.7,283.5 H 63.8 C 28.6,283.5 0,254.9 0,219.7 V 63.8 C 0,28.6 28.6,0 63.8,0 h 155.9 c 35.2,0 63.8,28.6 63.8,63.8 v 155.9 c 0,35.2 -28.6,63.8 -63.8,63.8"
+         id="path56194"
+         style="fill:#6e6e00" />
+      <path
+         d="M 159.27668,216.85 H 124.4356 L 71.32332,66.649999 h 35.47866 l 26.98105,81.792201 c 5.09907,15.72085 7.64858,27.61783 8.71069,33.35447 h 0.42453 c 1.06288,-5.73664 3.39934,-16.57071 8.71066,-32.92995 l 27.1933,-82.216721 h 33.35447 z"
+         fill="#ffffff"
+         id="path56324"
+         style="stroke-width:2.76944" />
     </g>
   </g>
 </svg>
