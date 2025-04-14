@@ -1625,5 +1625,70 @@
 			{"style": "sncf", "link": "https://enrail.org/sncf/?mode=Departures&station=Avenue%20Foch"},
 			{"style": "tram", "link": "490878", "line": "3b"}
 		]
+	},
+
+	"Courcelles": {
+        "nom": "Courcelles",
+        "lignes": [
+            { "type": "metro", "lines": ["2"] }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Station_Courcelles_Métro_Paris_Ligne_2_-_Paris_XVII_(FR75)_-_2022-07-01_-_1.jpg/1280px-Station_Courcelles_Métro_Paris_Ligne_2_-_Paris_XVII_(FR75)_-_2022-07-01_-_1.jpg",
+        "imagepage": "https://commons.wikimedia.org/wiki/File:Station_Courcelles_Métro_Paris_Ligne_2_-_Paris_XVII_(FR75)_-_2022-07-01_-_1.jpg",
+        "imageauthor": "Chabe01",
+        "statistiques": [
+            {
+                "lignes": [
+                    { "type": "metro", "lines": ["2"] }
+                ],
+                "ouverture": "7 octobre 1902",
+                "voies": "2",
+                "quais": "2",
+                "zone_tarifaire": "1",
+                "accessible": "Non",
+                "communes": ["Paris (XIII<sup>e</sup>), (XVII<sup>e</sup>)"],
+                "frequentation": "1 583 429 voyageurs (2021)" 
+            }
+        ],
+        "sorties": [
+            {"numero": "1", "description": "boulevard de Courcelles"},
+            {"numero": "2", "description": "rue de Chazelles"}
+        ],
+        "enrail_links": [
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Courcelles&line=2&sens=Porte:b:Dauphine&stationcode=71376&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Courcelles&line=2&sens=Nation&stationcode=71376&linecode=C01372&destcode=Nation&destcodealt=false"}
+        ]
+    },
+
+	"Ternes": {
+        "nom": "Ternes",
+        "lignes": [
+            { "type": "metro", "lines": ["2"] }
+        ],
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Station_Ternes_M%C3%A9tro_Paris_Ligne_2_-_Paris_XVII_%28FR75%29_-_2022-07-01_-_1.jpg/1280px-Station_Ternes_M%C3%A9tro_Paris_Ligne_2_-_Paris_XVII_%28FR75%29_-_2022-07-01_-_1.jpg",
+        "imagepage": "https://commons.wikimedia.org/wiki/File:Station_Ternes_M%C3%A9tro_Paris_Ligne_2_-_Paris_XVII_(FR75)_-_2022-07-01_-_1.jpg",
+        "imageauthor": "Chabe01",
+        "statistiques": [
+            {
+                "lignes": [
+                    { "type": "metro", "lines": ["2"] }
+                ],
+                "ouverture": "7 octobre 1902",
+                "voies": "2",
+                "quais": "2",
+                "zone_tarifaire": "1",
+                "accessible": "Non",
+                "communes": ["Paris (VIII<sup>e</sup>, XVII<sup>e</sup>)"],
+                "frequentation": "2 292 256 voyageurs (2021)"
+            }
+        ],
+        "sorties": [
+            {"numero": "1", "description": "venue des Ternes"},
+            {"numero": "2", "description": "place des Ternes", "ptinteret": "Salle Pleyel"},
+            {"numero": "3", "description": "boulevard de Courcelles"}
+        ],
+        "enrail_links": [
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Ternes&line=2&sens=Porte:b:Dauphine&stationcode=71367&linecode=C01372&destcode=Porte%20Dauphine&destcodealt=false"},
+            {"style": "ratp", "link": "https://enrail.org/ratp/?style=panam&station=Ternes&line=2&sens=Nation&stationcode=71367&linecode=C01372&destcode=Nation&destcodealt=false"}
+        ]
 	}
 }
