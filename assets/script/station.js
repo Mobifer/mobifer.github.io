@@ -36,8 +36,13 @@ document.addEventListener("DOMContentLoaded", function () {
 						case "metro":
 							if (numero.endsWith("bis")) {
 								return `/lines/m0${numero.replace("bis", "")}b.html`;
-							}
-							else {
+							} else if (numero === "orv") {
+								return `/lines/orv.html`;
+							} else if (numero === "cgv") {
+								return `/lines/cgv.html`;
+							} else if (numero === "fun") {
+								return `lines/fun.html`
+							} else {
 								return `/lines/m${numero.padStart(2, "0")}.html`; // Métro 1 -> m01
 							}
 						case "RER":
@@ -67,7 +72,15 @@ document.addEventListener("DOMContentLoaded", function () {
 			
 						let htmlLignes = lignesFiltrees.flatMap(ligne => 
 							ligne.lines.map(numero => {
-								let iconeLigne = `/assets/icons/${mode}_${numero}_couleur_RVB.svg`; // Génération automatique
+								if (numero === "cgv") {
+									var iconeLigne = `/assets/icons/LIG_IDFM_C00563.svg`
+								} else if (numero === "orv") {
+									var iconeLigne = `/assets/icons/LIG_IDFM_C01388.svg`
+								} else if (numero === "fun") {
+									var iconeLigne = `/assets/icons/funiculaire_montmartre_couleur_RVB.svg`
+								} else {
+									var iconeLigne = `/assets/icons/${mode}_${numero}_couleur_RVB.svg`; // Génération automatique
+								}
 								let lien = getLienLigne(mode, numero);
 								return `<span class="integrated"><a href="${lien}"><img src="${iconeLigne}" alt="${numero}"></a></span>`;
 							})
