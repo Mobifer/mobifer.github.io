@@ -30,8 +30,8 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="0.82972777"
-     inkscape:cx="850.27888"
-     inkscape:cy="1960.8841"
+     inkscape:cx="466.41804"
+     inkscape:cy="1519.7756"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -3644,7 +3644,7 @@
        transform="translate(212.26517,316.38776)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan233002">Branche</tspan></text><text
+         id="tspan3058">Branche</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3653,7 +3653,7 @@
        transform="translate(212.02517,325.266)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan233004">Saint-Denis</tspan></text><text
+         id="tspan3060">Saint-Denis</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3662,9 +3662,9 @@
        transform="translate(212.47318,306.47577)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan233008"><tspan
+         id="tspan3064"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan233006">Carr. Pleyel</tspan></tspan></text><a
+           id="tspan3062">Carr. Pleyel</tspan></tspan></text><a
        id="a76103"
        xlink:href="/lines/m14"
        target="_parent"
@@ -3739,9 +3739,9 @@
        transform="translate(299.82901,318.47577)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan233012"><tspan
+         id="tspan3068"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan233010">Saint-Denis – Pleyel</tspan></tspan></text><text
+           id="tspan3066">Saint-Denis – Pleyel</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="399.43799"
@@ -3778,9 +3778,9 @@
        transform="translate(315.94315,372.89699)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan233016"><tspan
+         id="tspan3072"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan233014">Magenta</tspan></tspan></text><a
+           id="tspan3070">Magenta</tspan></tspan></text><a
        id="a53-3"
        xlink:href="/lines/m05"
        target="_parent"
@@ -3967,9 +3967,9 @@
        transform="translate(102.68248,372.89699)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan233020"><tspan
+         id="tspan3076"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan233018">La Chapelle</tspan></tspan></text><text
+           id="tspan3074">La Chapelle</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -3978,11 +3978,11 @@
        transform="translate(23.167251,351.21428)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan233022">Grandes
+         id="tspan3078">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan233024">Lignes</tspan></text><a
+         id="tspan3080">Lignes</tspan></text><a
        id="a49-5"
        xlink:href="/lines/rerB"
        target="_parent"
@@ -4284,11 +4284,11 @@
        transform="translate(96.387851,464.24307)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan233026">Grandes
+         id="tspan3082">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan233028">Lignes</tspan></text><text
+         id="tspan3084">Lignes</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="399.43799"
@@ -5640,16 +5640,6 @@
          y="1538.0076"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std';text-align:start;text-anchor:start"
          id="tspan224140">7</tspan></text><text
-       xml:space="preserve"
-       style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
-       x="393.74768"
-       y="1359.7549"
-       id="text225624"><tspan
-         sodipodi:role="line"
-         x="393.74768"
-         y="1359.7549"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std';text-align:start;text-anchor:start"
-         id="tspan225622">14</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="393.91833"
