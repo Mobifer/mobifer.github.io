@@ -137,6 +137,10 @@ a {
 	border: none;
 }
 
+.box:empty {
+	display: none;
+}
+
 .sncf {
 	aspect-ratio: 16/9 !important;
 }
@@ -455,4 +459,58 @@ a {
 
 .justified {
 	text-align: justify;
+}
+
+.stationinput {
+	border-radius: 10px;
+	font-size: 1em;
+	padding: 10px;
+	font-family: "parisine-std", sans-serif;
+	max-width: 500px;
+	width: 100%;
+	align-self: center;
+	font-weight: bold;
+	background-color: white;
+	border: 2px solid black;
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.4s ease, visibility 0.4s ease;
+	pointer-events: none;
+}
+
+.stationinput::placeholder {
+	font-weight: normal !important;
+	font-style: italic;
+}
+
+.stationinput.active {
+	opacity: 1;
+	visibility: visible;
+	pointer-events: auto;
+}
+
+.searchbox {
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 5px;
+}
+
+.searchbtn {
+	/* Create a button class */
+	background-color: #0a0082; /* Dark blue */
+	border: 2px solid #0a0082;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 10px;
+	font-weight: bold;
+	font-family: "parisine-std", sans-serif;
+	min-width: 30px;
+	height: auto;
+	align-self: flex-end;
 }

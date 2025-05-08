@@ -1,21 +1,42 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Station - MobiFer</title>
-    <link rel="stylesheet" href="/styles.css">
-    <link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
-    <link rel="icon" href="/assets/favicon.png" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Station - MobiFer</title>
+	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
+	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <a href="/"><h1 class="header">MobiFer</h1></a>
-    
-    <div id="station-content">
-    </div>
+	<a href="/"><h1 class="header">MobiFer</h1></a>
+	<div class="searchbox">
+		<div class="searchbtn" onclick="hidesearch()">
+			<span class="integrated"><img src="/assets/icons/search.svg"></span>
+		</div>
+		<input type="search" class="stationinput" id="search" placeholder="Rechercher une station...">
+	</div>
+	<div class="box image-center" id="search-results" style="max-width: 700px !important;"></div>
+	<div id="station-content">
+	</div>
+	<div id="footer-container"></div>
+	<script src="/assets/script/station.js" type="module"></script>
+	<script src="/assets/script/stationsearch.js" type="module"></script>
+	<script>
+		function hidesearch() {
+			var container = document.getElementById("search");
+			var input = container.querySelector("input");
+			var results = document.getElementById("search-results");
 
-    <script src="/assets/script/station.js"></script>
-    <div id="footer-container"></div>
+			if (!container.classList.contains("active")) {
+				container.classList.add("active");
+			} else {
+				if (input) input.value = "";
+				if (results) results.innerHTML = "";
+				container.classList.remove("active");
+			}
+		}
+	</script>
 	<script src="/addons/footer.js"></script>
 </body>
 </html>

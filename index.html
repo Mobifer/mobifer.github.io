@@ -12,8 +12,21 @@
 </head>
 <body>
 	<a href="/"><h1 class="header">MobiFer</h1></a>
+
+	<div class="searchbox">
+		<div class="searchbtn" onclick="hidesearch()">
+			<span class="integrated"><img src="/assets/icons/search.svg"></span>
+		</div>
+		<input type="search" class="stationinput" id="search" placeholder="Rechercher une station...">
+	</div>
+	<div class="box image-center" id="search-results" style="max-width: 1200px !important;"></div>
+
 	<div class="box image-center" style="max-width: 1200px !important;">
 		<h2 class="centered" id="Accueil">Accueil</h2>
+		<h3 class="centered">Bienvenue dans ce site Internet dédié aux transports en commun ferrés d’Île-de-France&nbsp;!</h3>
+		<p class="justified">Ici, vous pourrez consulter de nombreuses informations sur les transports en commun d’Île-de-France <strong>guidés par rail</strong> (Métro, Tramway, RER et Transilien). Après avoir débuté votre navigation en choisissant parmi l’une des lignes ci-dessous, vous pourrez consulter les <strong>pages des stations</strong> par l’intermédiaire des plans de ligne.</p>
+		<p class="justified"><span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span> <strong>Attention&nbsp;!</strong> Ce site est encore en construction active. Certaines pages n’ont pas encore été créées. Vous rencontrerez donc probablement des erreurs 404. À terme, le site vous assurera une navigation sans interruption entre lignes, stations et matériels roulants. <span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span></p>
+		<p class="justified">Le saviez-vous ? Le nom <strong><em>MobiFer</em></strong> tient d’un jeu de mots avec la nomenclature des trains de type <strong>MF</strong> (<strong>M</strong>atériel roulant <strong>F</strong>er) en circulation sur le métro de Paris.</p>
 		<div class="slideshow-container">
 			<div class="slide fade">
 				<img src="assets/slider/slider1.jpeg" alt="Slide 1">
@@ -44,10 +57,6 @@
 				<div class="caption">© Aluminium</div>
 			</div>
 		</div>
-		<h3 class="centered">Bienvenue dans ce site Internet dédié aux transports en commun ferrés d’Île-de-France&nbsp;!</h3>
-		<p class="justified">Ici, vous pourrez consulter de nombreuses informations sur les transports en commun d’Île-de-France <strong>guidés par rail</strong> (Métro, Tramway, RER et Transilien). Après avoir débuté votre navigation en choisissant parmi l’une des lignes ci-dessous, vous pourrez consulter les <strong>pages des stations</strong> par l’intermédiaire des plans de ligne.</p>
-		<p class="justified"><span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span> <strong>Attention&nbsp;!</strong> Ce site est encore en construction active. Certaines pages n’ont pas encore été créées. Vous rencontrerez donc probablement des erreurs 404. À terme, le site vous assurera une navigation sans interruption entre lignes, stations et matériels roulants. <span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span></p>
-		<p class="justified">Le saviez-vous ? Le nom <strong><em>MobiFer</em></strong> tient d’un jeu de mots avec la nomenclature des trains de type <strong>MF</strong> (<strong>M</strong>atériel roulant <strong>F</strong>er) en circulation sur le métro de Paris.</p>
 	</div>
 	<!-- <p class="centered"><em>You can also visit this website in <a href="/en/">English</a>!</em></p> -->
 	 <div class="box image-center" id="Lignes" style="max-width: 1200px !important;">
@@ -140,7 +149,22 @@
 		}
 
 		showSlides();
+	</script>
+	<script src="/assets/script/stationsearch.js" type="module"></script>
+	<script>
+		function hidesearch() {
+			var container = document.getElementById("search");
+			var input = container.querySelector("input");
+			var results = document.getElementById("search-results");
 
+			if (!container.classList.contains("active")) {
+				container.classList.add("active");
+			} else {
+				if (input) input.value = "";
+				if (results) results.innerHTML = "";
+				container.classList.remove("active");
+			}
+		}
 	</script>
 </body>
 </html>
