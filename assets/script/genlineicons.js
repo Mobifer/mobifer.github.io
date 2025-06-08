@@ -42,7 +42,7 @@ export function genererLignesHTML(lignes) {
 
 	// On parcourt les types de transport dans l'ordre défini
 	ordreModes.forEach(mode => {
-		let lignesFiltrees = lignes[mode] || [];
+		let lignesFiltrees = lignes[mode.toLowerCase()] || [];
 		if (lignesFiltrees.length > 0) {
 			let iconeMode = `<span class="integrated"><img src="${iconesModes[mode]}" alt="${mode}"></span>`;
 
