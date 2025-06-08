@@ -1,9 +1,9 @@
 // Génération des icônes des lignes générales
 export function genererLignesHTML(lignes) {
-	const ordreModes = ["metro", "rer", "train", "tram"]; // Ordre défini
+	const ordreModes = ["metro", "RER", "train", "tram"]; // Ordre défini
 	const iconesModes = {
 		"metro": "/assets/icons/symbole_metro_RVB.svg",
-		"rer": "/assets/icons/symbole_RER_RVB.svg",
+		"RER": "/assets/icons/symbole_RER_RVB.svg",
 		"train": "/assets/icons/symbole_train_RVB.svg",
 		"tram": "/assets/icons/symbole_tram_RVB.svg"
 	};
