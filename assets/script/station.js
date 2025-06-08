@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				html += `<table>`;
 
 				// Affichage des lignes si elles existent
-				if (stats.lignes && stats.lignes.length > 0) {
+				if (stats.lignes) {
 					html += `<tr><td class="title">Ligne(s)</td><td style="font-size: 1.4em;">${lignesTable}</td></tr>`;
 				}
 
@@ -86,12 +86,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			// Génération des sorties
 			html += `<div class="box image-center">
-						<h2 class="centered">Sorties</h2>`;
+						<h2 class="centered">Accès</h2>
+						<div class="centered"><span class="blue-box" style="padding: 10px !important; text-align: left;">`;
+			var sortieNum = 0;
 			station.sorties.forEach(sortie => {
-				html += `<span class="blue-box"><span class="num-sortie">${sortie.num}</span>`;
+				sortieNum += 1;
+				html += `<span class="num-sortie">${sortie.num}</span>`;
 				if (sortie.desc) {
 					html += ` ${sortie.desc}`;
-					html += `<br>`;
+					html += `<span style="font-size: 1.25em">`
+					if (sortie.acc) {
+						html += ` <span class="integrated"><img src="/assets/icons/info.svg"></span> <span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
+					}
+					if (sortie.asc) {
+						html += ` <span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>`;
+					}
+					if (sortie.esc) {
+						html += ` <span class="integrated"><img src="/assets/icons/escalator.svg"></span>`;
+					}
+					html += `</span><br>`;
 					var hasDescription = "style='margin-top: 5px !important;'";
 				}
 				else {
@@ -99,13 +112,43 @@ document.addEventListener("DOMContentLoaded", function () {
 				}
 				if (sortie.rep) {
 					html += ` <span class="repere" ${hasDescription}>${sortie.rep}</span>`;
+					if (!sortie.desc) {
+						html += `<span style="font-size: 1.25em">`
+						if (sortie.acc) {
+							html += ` <span class="integrated"><img src="/assets/icons/info.svg"></span> <span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
+						}
+						if (sortie.asc) {
+							html += ` <span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>`;
+						}
+						if (sortie.esc) {
+							html += ` <span class="integrated"><img src="/assets/icons/escalator.svg"></span>`;
+						}
+						html += `</span>`
+					}
+					html += `<br>`;
 				}
 				if (sortie.pti) {
 					html += ` <span class="ptinteret" ${hasDescription}>${sortie.pti}</span>`;
+					if (!sortie.desc) {
+						html += `<span style="font-size: 1.25em">`
+						if (sortie.acc) {
+							html += ` <span class="integrated"><img src="/assets/icons/info.svg"></span> <span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
+						}
+						if (sortie.asc) {
+							html += ` <span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>`;
+						}
+						if (sortie.esc) {
+							html += ` <span class="integrated"><img src="/assets/icons/escalator.svg"></span>`;
+						}
+						html += `</span>`
+					}
+					html += `<br>`;
 				}
-				
-				html += `</span>\n`;
+				if (sortieNum < station.sorties.length) {
+					html += `<br>`
+				}
 			});
+			html += `</span></div>\n`;
 			html += `</div>`;
 
 			// Ajout des liens Enrail uniquement pour le métro
@@ -116,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
 						html += `<iframe src="${link.metro}" class="ratp" frameborder="0"></iframe>`;
 					}
 					if (link.train) {
-						html += `<iframe src="${link.train}" class="sncf" frameborder="0"></iframe>`;
+						html += `<iframe src="${link.train}" class="sncf" frameborder="0" style="pointer-events: none;"></iframe>`;
 					}
 					if (link.tram) {
 						html += `<iframe src="/addons/sieltram.html?stop=${link.tram}&line=${link.line}" class="tram"></iframe>`;
@@ -124,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
 				});
 				html += `</div>
 					<div class="license" style="margin-top: 2px !important; margin-bottom: 8px;">
-						Reproduction du visuel officiel, proposée par <a href="https://enrail.org">enrail.org</a> (Métro, RER et Transilien) et MobiFer (Tramway)
+						Reproduction du visuel officiel, proposée par <a href="https://enrail.org">enrail.org</a> (Métro, RER et Transilien), <a href="https://prochainstrains.arno.cl">Prochains Trains</a> (RER et Transilien) et MobiFer (Tramway)
 					</div>`;
 			}
 
