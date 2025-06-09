@@ -143,6 +143,8 @@ a {
 
 .sncf {
 	aspect-ratio: 16/9 !important;
+	pointer-events: none;
+	overflow-y: hidden !important;
 }
 
 .tram {
@@ -402,7 +404,6 @@ a {
 
 .train {
 	font-size: 30px !important;
-
 }
 
 /* Pour le slideshow */

@@ -159,7 +159,7 @@ document.addEventListener("DOMContentLoaded", function () {
 						html += `<iframe src="${link.metro}" class="ratp" frameborder="0"></iframe>`;
 					}
 					if (link.train) {
-						html += `<iframe src="${link.train}" class="sncf" frameborder="0" style="pointer-events: none;"></iframe>`;
+						html += `<iframe src="${link.train}" class="sncf" frameborder="0" scrolling="no"></iframe>`;
 					}
 					if (link.tram) {
 						html += `<iframe src="/addons/sieltram.html?stop=${link.tram}&line=${link.line}" class="tram"></iframe>`;
