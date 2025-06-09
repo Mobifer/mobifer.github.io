@@ -134,6 +134,9 @@ document.addEventListener("DOMContentLoaded", function () {
 						if (sortie.acc) {
 							html += ` <span class="integrated"><img src="/assets/icons/info.svg"></span> <span class="integrated"><img src="/assets/icons/tickets.svg"></span>`;
 						}
+						if (sortie.serv) {
+							html += ` <span class="integrated"><img src="/assets/icons/info.svg"></span>`;
+						}
 						if (sortie.asc) {
 							html += ` <span class="integrated"><img src="/assets/icons/ascenseur.svg"></span>`;
 						}
