@@ -1,24 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 283.5 283.5" style="enable-background:new 0 0 283.5 283.5;" xml:space="preserve">
-<style type="text/css">
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 283.5 283.5"
+   style="enable-background:new 0 0 283.5 283.5;"
+   xml:space="preserve"
+   sodipodi:docname="tram_T4_couleur_RVB.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs19646"><clipPath
+     id="SVGID_00000085972433664928841230000013839026464737200560_">
+		<use
+   xlink:href="#SVGID_1_-7"
+   style="overflow:visible"
+   id="use19367" />
+	</clipPath><clipPath
+     id="clipPath23370">
+		<use
+   xlink:href="#SVGID_1_-7"
+   style="overflow:visible"
+   id="use23368" />
+	</clipPath><rect
+     id="SVGID_1_-7"
+     width="283.5"
+     height="283.5"
+     x="0"
+     y="0" /></defs><sodipodi:namedview
+   id="namedview19644"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="0.93062156"
+   inkscape:cx="87.038602"
+   inkscape:cy="137.54248"
+   inkscape:window-width="1920"
+   inkscape:window-height="1008"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style19629">
 	.st0{clip-path:url(#SVGID_00000043441787533654765510000013586801757463423110_);}
 	.st1{clip-path:url(#SVGID_00000043441787533654765510000013586801757463423110_);fill:#DC9600;}
 </style>
-<g>
-	<defs>
-		<rect id="SVGID_1_" width="283.5" height="283.5"/>
+<g
+   id="g24497"><rect
+     style="fill:#ffffff;fill-opacity:1;stroke-width:4.5568"
+     id="rect346"
+     width="283.5"
+     height="235.46899"
+     x="0"
+     y="24.015503"
+     ry="0" /><g
+     id="g19641">
+	<defs
+   id="defs19632">
+		<rect
+   id="SVGID_1_"
+   width="283.5"
+   height="283.5"
+   x="0"
+   y="0" />
 	</defs>
-	<clipPath id="SVGID_00000175319755289153777270000014566746070130000829_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	<clipPath
+   id="SVGID_00000175319755289153777270000014566746070130000829_">
+		<use
+   xlink:href="#SVGID_1_"
+   style="overflow:visible"
+   id="use19634" />
 	</clipPath>
-	<path style="clip-path:url(#SVGID_00000175319755289153777270000014566746070130000829_);" d="M102.6,107.4V197H78.5v-89.5H44.9
-		V87.8h91.3v19.6H102.6z M225.7,174.2V197H204v-22.7h-49.2V154l42.4-66.2h28.5v69.5h12.8v17H225.7z M204,106.9h-0.3
-		c-0.5,1.9-3.6,8.5-7.9,15.3l-22.3,35H204V106.9z"/>
-	<path style="clip-path:url(#SVGID_00000175319755289153777270000014566746070130000829_);fill:#DC9600;" d="M269.3,42.5H14.2
-		C6.3,42.5,0,36.2,0,28.3V14.2C0,6.3,6.3,0,14.2,0h255.1c7.8,0,14.2,6.3,14.2,14.2v14.2C283.5,36.2,277.1,42.5,269.3,42.5
-		 M283.5,269.3v-14.2c0-7.8-6.3-14.2-14.2-14.2H14.2c-7.8,0-14.2,6.3-14.2,14.2v14.2c0,7.8,6.3,14.2,14.2,14.2h255.1
-		C277.1,283.5,283.5,277.1,283.5,269.3"/>
-</g>
+	<path
+   d="M 102.6,107.4 V 197 H 78.5 V 107.5 H 44.9 V 87.8 h 91.3 v 19.6 z m 123.1,66.8 V 197 H 204 V 174.3 H 154.8 V 154 l 42.4,-66.2 h 28.5 v 69.5 h 12.8 v 17 H 225.7 Z M 204,106.9 h -0.3 c -0.5,1.9 -3.6,8.5 -7.9,15.3 l -22.3,35 H 204 Z"
+   clip-path="url(#SVGID_00000175319755289153777270000014566746070130000829_)"
+   id="path19637" />
+	<path
+   style="fill:#dc9600"
+   d="M 269.3,42.5 H 14.2 C 6.3,42.5 0,36.2 0,28.3 V 14.2 C 0,6.3 6.3,0 14.2,0 h 255.1 c 7.8,0 14.2,6.3 14.2,14.2 v 14.2 c 0,7.8 -6.4,14.1 -14.2,14.1 m 14.2,226.8 v -14.2 c 0,-7.8 -6.3,-14.2 -14.2,-14.2 H 14.2 C 6.4,240.9 0,247.2 0,255.1 v 14.2 c 0,7.8 6.3,14.2 14.2,14.2 h 255.1 c 7.8,0 14.2,-6.4 14.2,-14.2"
+   clip-path="url(#SVGID_00000175319755289153777270000014566746070130000829_)"
+   id="path19639" />
+</g></g>
 </svg>

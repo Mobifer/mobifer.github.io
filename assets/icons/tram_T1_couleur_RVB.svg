@@ -1,23 +1,81 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 283.5 283.5" style="enable-background:new 0 0 283.5 283.5;" xml:space="preserve">
-<style type="text/css">
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 283.5 283.5"
+   style="enable-background:new 0 0 283.5 283.5;"
+   xml:space="preserve"
+   sodipodi:docname="tram_T1_couleur_RVB.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs435" /><sodipodi:namedview
+   id="namedview433"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="1.9157883"
+   inkscape:cx="91.34621"
+   inkscape:cy="162.85724"
+   inkscape:window-width="1920"
+   inkscape:window-height="1008"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Layer_1" />
+<style
+   type="text/css"
+   id="style418">
 	.st0{clip-path:url(#SVGID_00000145737393370230384210000000292656057530498699_);}
 	.st1{clip-path:url(#SVGID_00000145737393370230384210000000292656057530498699_);fill:#0055C8;}
 </style>
-<g>
-	<defs>
-		<rect id="SVGID_1_" width="283.5" height="283.5"/>
+<g
+   id="g8585"><rect
+     style="fill:#ffffff;fill-opacity:1;stroke-width:4.5568"
+     id="rect346"
+     width="283.5"
+     height="235.46899"
+     x="0"
+     y="24.015503"
+     ry="0" /><g
+     id="g430">
+	<defs
+   id="defs421">
+		<rect
+   id="SVGID_1_"
+   width="283.5"
+   height="283.5"
+   x="0"
+   y="0" />
 	</defs>
-	<clipPath id="SVGID_00000182526092719188350950000006916297634946412972_">
-		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	<clipPath
+   id="SVGID_00000182526092719188350950000006916297634946412972_">
+		<use
+   xlink:href="#SVGID_1_"
+   style="overflow:visible"
+   id="use423" />
 	</clipPath>
-	<path style="clip-path:url(#SVGID_00000182526092719188350950000006916297634946412972_);" d="M115,107.4V197H90.9v-89.6H57.3V87.8
-		h91.3v19.6H115z M203,197v-85.8c-6.6,5.3-17.2,10.4-24.4,13.6l-7.4-16.7c11.4-4.8,25.2-12.1,36-20.3h19V197H203z"/>
-	<path style="clip-path:url(#SVGID_00000182526092719188350950000006916297634946412972_);fill:#0055C8;" d="M269.3,42.5H14.2
-		C6.3,42.5,0,36.2,0,28.3V14.2C0,6.3,6.3,0,14.2,0h255.1c7.8,0,14.2,6.3,14.2,14.2v14.2C283.5,36.2,277.1,42.5,269.3,42.5
-		 M283.5,269.3v-14.2c0-7.8-6.3-14.2-14.2-14.2H14.2c-7.8,0-14.2,6.3-14.2,14.2v14.2c0,7.8,6.3,14.2,14.2,14.2h255.1
-		C277.1,283.5,283.5,277.1,283.5,269.3"/>
-</g>
+	<path
+   style="stroke:none;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1"
+   d="M 115,107.4 V 197 H 90.9 V 107.4 H 57.3 V 87.8 h 91.3 v 19.6 z m 88,89.6 v -85.8 c -6.6,5.3 -17.2,10.4 -24.4,13.6 l -7.4,-16.7 c 11.4,-4.8 25.2,-12.1 36,-20.3 h 19 V 197 Z"
+   clip-path="url(#SVGID_00000182526092719188350950000006916297634946412972_)"
+   id="path426" />
+	<path
+   style="fill:#0055c8"
+   d="M 269.3,42.5 H 14.2 C 6.3,42.5 0,36.2 0,28.3 V 14.2 C 0,6.3 6.3,0 14.2,0 h 255.1 c 7.8,0 14.2,6.3 14.2,14.2 v 14.2 c 0,7.8 -6.4,14.1 -14.2,14.1 m 14.2,226.8 v -14.2 c 0,-7.8 -6.3,-14.2 -14.2,-14.2 H 14.2 C 6.4,240.9 0,247.2 0,255.1 v 14.2 c 0,7.8 6.3,14.2 14.2,14.2 h 255.1 c 7.8,0 14.2,-6.4 14.2,-14.2"
+   clip-path="url(#SVGID_00000182526092719188350950000006916297634946412972_)"
+   id="path428" />
+</g></g>
 </svg>
