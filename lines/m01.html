@@ -34,12 +34,12 @@
 				<span style="font-size: 80px;" class="shadowed"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_1_couleur_RVB.svg" alt="1"></span></span><br>
 				<span class="image-center terminus-box">La Défense <span class="integrated"><img src="/assets/icons/double_fleche.svg" alt="Double flèche"></span> Château de Vincennes</span></p>
 			</div>
-			<div class="box image-center">
-				<h2 class="centered">Information trafic</h2>
-				<p class="centered"><span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span> Bientôt, l’information trafic de votre ligne ! <span class="integrated"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span></p>
+			<div class="box image-center info-trafic">
+				<h2 class="centered">Information trafic <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_1_couleur_RVB.svg" alt="1"></span></h2>
+				<div id="infotrafic">Aucune information trafic disponible.</div>
 			</div>
 		</div>
-		<div class="column">
+		<div class="column" style="align-self: center;">
 			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/MP_05_-_Bastille_-_Ligne_1.jpg/1024px-MP_05_-_Bastille_-_Ligne_1.jpg" alt="Illustration de la ligne" style="width: 100% !important; border-radius: 10px;" class="image-center">
 			<div class="license" style="margin-bottom: 10px;">© Capitaine AdBlock sur <a href="https://commons.wikimedia.org/wiki/File:MP_05_-_Bastille_-_Ligne_1.jpg">Wikimedia Commons</a></div>
 		</div>
@@ -143,7 +143,74 @@
 	</div>
 	<div id="footer-container"></div>
 
+	<script>
+		const apiKey = 'mYCu0lYZDhpkhgaZgCEFs4m7r7bnAAal';
+		fetch(`https://apitrafic.share.zrok.io/trafic/m01`, {
+			headers: {
+				'skip_zrok_interstitial': '0'
+			}
+		})
+		.then(response => response.json())
+		.then(data => {
+			const infoDiv = document.getElementById('infotrafic');
+			infoDiv.innerHTML = '';
+			const results = data.disruptions;
+			if (results && results.length > 0) {
+				const newResults = [];
+				results.forEach(element => {
+					if (element.status === "active") {
+						newResults.unshift(element);
+					}
+					else if (element.status === "future") {
+						newResults.push(element);
+					}
+				})
+				newResults.forEach((element, index) => {
+					if (Array.isArray(element.tags) && element.tags.includes('Actualité')) {
+						let messages = element.messages;
+						let titre = '';
+						let contenu = '';
+						let blink = '';
+						messages.forEach(message => {
+							if (message.channel.name === "titre") {
+								titre = message.text;
+							}
+							if (message.channel.name === "moteur") {
+								contenu = message.text;	
+							}
+						});
+						if (titre && contenu) {
+							if (element.cause === "travaux") {
+								if (element.status === "active") {
+									infoDiv.innerHTML += `<h3><span class="integrated perturbation"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
+								}
+								else {
+									infoDiv.innerHTML += `<h3><span class="integrated"><img src="/assets/icons/Perturbation_travaux_NB_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
+								}
+							}
+							else if (element.cause === "perturbation") {
+								if (element.status === "active") {
+									infoDiv.innerHTML += `<h3><span class="integrated perturbation"><img src="/assets/icons/Perturbation_trafic_couleur_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
+								}
+								else {
+									infoDiv.innerHTML += `<h3><span class="integrated"><img src="/assets/icons/Perturbation_trafic_NB_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
+								}
+							}
+							if (!(index === newResults.length - 1)) {
+								infoDiv.innerHTML += '<hr>';
+							}
+						}
+					}
+				});
+			}
+			else {
+				infoDiv.innerHTML = "Aucune perturbation sur votre ligne !";
+			}
+		})
+	</script>
+
 	<script src="/addons/footer.js"></script>
 
 	<script src="/assets/script/galleryhandle.js"></script>
+
 </body>

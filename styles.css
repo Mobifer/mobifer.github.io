@@ -545,3 +545,27 @@ a {
 .box.sticky-left {
   break-after: column !important;
 }
+
+@keyframes blink {
+	0%,50% {
+		opacity: 0;
+	}
+	51%,100% {
+		opacity: 1;
+	}
+}
+.perturbation {
+	animation: blink 1s;
+	animation-iteration-count: infinite;
+}
+
+.info-trafic {
+	max-height: 33.333vh;
+	overflow-y: auto;
+}
+
+@media (max-height: 600px) {
+	.info-trafic {
+		max-height: 50vh;
+	}
+}
