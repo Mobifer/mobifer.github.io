@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/newstyles.css">
 	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
 	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
     <title>Métro 3 - MobiFer</title>
@@ -11,11 +11,26 @@
 </head>
 <body>
 	<a href="/"><h1 class="header">MobiFer</h1></a>
-	<p class="centered"><strong>Métropolitain</strong><br>
-	<span style="font-size: 80px;" class="shadowed"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_3_couleur_RVB.svg" alt="3"></span></span><br>
-	<span class="image-center terminus-box">Pont de Levallois – Bécon <span class="integrated"><img src="/assets/icons/double_fleche.svg" alt="Double flèche"></span> Gallieni</strong></span></p>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Metro_de_Paris_-_Ligne_3_-_Gambetta_06.jpg/1024px-Metro_de_Paris_-_Ligne_3_-_Gambetta_06.jpg" alt="Illustration de la ligne" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
-	<div class="license">© Clicsouris sur <a href="https://commons.wikimedia.org/wiki/File:Metro_de_Paris_-_Ligne_3_-_Gambetta_06.jpg">Wikimedia Commons</a></div>
+	<div class="row no-margin">
+		<div class="column self-center" >
+			<div>
+				<p class="centered"><strong>Métropolitain</strong><br>
+				<span style="font-size: 80px;" class="shadowed"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_3_couleur_RVB.svg" alt="3"></span></span><br>
+				<span class="image-center terminus-box">Pont de Levallois – Bécon <span class="integrated"><img src="/assets/icons/double_fleche.svg" alt="Double flèche"></span> Gallieni</span></p>
+			</div>
+			<div class="box image-center info-trafic">
+				<h2 class="centered">Information trafic <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_3_couleur_RVB.svg" alt="3"></span></h2>
+				<div id="infotrafic"><p>Aucune information trafic disponible.</p></div>
+			</div>
+		</div>
+		<div class="column self-center">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Metro_de_Paris_-_Ligne_3_-_Gambetta_06.jpg/1024px-Metro_de_Paris_-_Ligne_3_-_Gambetta_06.jpg" alt="Illustration de la ligne" style="width: 100% !important; border-radius: 10px;" class="image-center">
+			<div class="license" style="margin-bottom: 10px;">© Clicsouris sur <a href="https://commons.wikimedia.org/wiki/File:Metro_de_Paris_-_Ligne_3_-_Gambetta_06.jpg">Wikimedia Commons</a></div>
+		</div>
+	</div>
+
+	<div class="row">
+	<div class="column">
 	<div class="box image-center">
 		<h2 class="centered">Plan de la ligne<br><span class="p"></span></h2>
 		<p class="centered">Cliquez sur la puce d’une station ou l’icône d’une ligne pour consulter sa page dédiée.</p>
@@ -27,6 +42,8 @@
 		<br><a href="/assets/maps/prod/clean/m03clean.pdf">Télécharger le plan sans temps de marche (PDF, 47 Ko)<span class="integrated"><img src="/assets/icons/download.svg" alt="Télécharger"></span></a></p>
 
 	</div>
+	</div>
+	<div class="column">
 	<div class="box image-center">
 		<h2 class="centered">Statistiques et données</h2>
 		<table>
@@ -91,7 +108,12 @@
 		<p class="centered"><br>Cliquez sur une image pour l’agrandir.</p>
 		<p class="license">© ArsTC</p>
 	</div>
+	</div>
+	</div>
+
 	<div id="footer-container"></div>
+
+	<script src="/assets/script/infotrafic.js"></script>
 	<script src="/addons/footer.js"></script>
 	<script src="/assets/script/galleryhandle.js"></script>
 </body>

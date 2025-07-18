@@ -3,52 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="/styles.css">
+	<link rel="stylesheet" href="/newstyles.css">
 	<link rel="stylesheet" href="https://use.typekit.net/euw0chn.css">
 	<link rel="icon" href="/assets/favicon.png" type="image/x-icon">
 	<!-- <script src="/assets/script/pdftreatment.js"></script> -->	
 	<title>Métro 1 - MobiFer</title>
 	<meta name="description" content="La ligne 1 du métropolitain de Paris relie La Défense à Château de Vincennes.">
-	<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/MP_05_-_Bastille_-_Ligne_1.jpg/1024px-MP_05_-_Bastille_-_Ligne_1.jpg">
-	<style>
-		html, body{
-			height: 100%;
-			margin: 0;
-			padding: 0 5px;
-			font-family: "parisine-std", sans-serif;
-			background-image: url('/assets/icons/motif.jpg');
-			background-repeat: repeat;
-			background-size: 150px;
-		}
-		.box {
-			max-width: none;
-		}
-	</style>
+	<meta property="og:image" content="/assets/icons/metro_1_couleur_RVB.svg">
 </head>
 <body>
 	<a href="/"><h1 class="header">MobiFer</h1></a>
-	<div class="row" style="margin: 0 0;">
-		<div class="column" style="align-self: center;">
-			<div style="align-self: center;">
+	<div class="row no-margin">
+		<div class="column self-center" >
+			<div>
 				<p class="centered"><strong>Métropolitain</strong><br>
 				<span style="font-size: 80px;" class="shadowed"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_1_couleur_RVB.svg" alt="1"></span></span><br>
 				<span class="image-center terminus-box">La Défense <span class="integrated"><img src="/assets/icons/double_fleche.svg" alt="Double flèche"></span> Château de Vincennes</span></p>
 			</div>
 			<div class="box image-center info-trafic">
 				<h2 class="centered">Information trafic <span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_1_couleur_RVB.svg" alt="1"></span></h2>
-				<div id="infotrafic">Aucune information trafic disponible.</div>
+				<div id="infotrafic"><p>Aucune information trafic disponible.</p></div>
 			</div>
 		</div>
-		<div class="column" style="align-self: center;">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/MP_05_-_Bastille_-_Ligne_1.jpg/1024px-MP_05_-_Bastille_-_Ligne_1.jpg" alt="Illustration de la ligne" style="width: 100% !important; border-radius: 10px;" class="image-center">
-			<div class="license" style="margin-bottom: 10px;">© Capitaine AdBlock sur <a href="https://commons.wikimedia.org/wiki/File:MP_05_-_Bastille_-_Ligne_1.jpg">Wikimedia Commons</a></div>
+		<div class="column self-center">
+			<img src="/assets/photos/m01-3.jpg" alt="Illustration de la ligne" style="width: 100% !important; border-radius: 10px;" class="image-center">
+			<div class="license" style="margin-bottom: 10px;">© ArsTC</div>
 		</div>
 	</div>
-	<!-- <p class="centered"><strong>Métropolitain</strong><br>
-	<span style="font-size: 80px;" class="shadowed"><span class="integrated"><img src="/assets/icons/symbole_metro_RVB.svg" alt="Métro"></span>&thinsp;<span class="integrated"><img src="/assets/icons/metro_1_couleur_RVB.svg" alt="1"></span></span><br>
-	<span class="image-center terminus-box">La Défense <span class="integrated"><img src="/assets/icons/double_fleche.svg" alt="Double flèche"></span> Château de Vincennes</span></p>
-	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/MP_05_-_Bastille_-_Ligne_1.jpg/1024px-MP_05_-_Bastille_-_Ligne_1.jpg" alt="Illustration de la ligne" style="width: 100%; max-width: 800px; border-radius: 10px;" class="image-center">
-	<div class="license">© Capitaine AdBlock sur <a href="https://commons.wikimedia.org/wiki/File:MP_05_-_Bastille_-_Ligne_1.jpg">Wikimedia Commons</a></div> -->
+
 	<div class="row">
 	<div class="column">
 	<div class="box image-center sticky-left">
@@ -130,84 +112,19 @@
 		<div class="gallery">
 			<img src="/assets/photos/m01-1.webp" alt="Photo 1">
 			<img src="/assets/photos/m01-2.webp" alt="Photo 2">
-			<img src="/assets/photos/m01-3.jpg" alt="Photo 3">
-			<img src="/assets/photos/m01-4.jpg" alt="Photo 4">
+			<img src="/assets/photos/m01-4.jpg" alt="Photo 3">
 			<img src="/assets/photos/m01-5.jpg" alt="Photo 4">
 		</div>
 		<p class="centered"><br>Cliquez sur une image pour l’agrandir.</p>
 		<p class="license">De gauche à droite, et de haut en bas</p>
 		<p class="license">Photos 1 et 2&nbsp;: © Zoric</p>
-		<p class="license">Photos 3 à 5&nbsp;: © ArsTC</p>
+		<p class="license">Photos 3 et 4&nbsp;: © ArsTC</p>
 	</div>
 	</div>
 	</div>
 	<div id="footer-container"></div>
 
-	<script>
-		const apiKey = 'mYCu0lYZDhpkhgaZgCEFs4m7r7bnAAal';
-		fetch(`https://apitrafic.share.zrok.io/trafic/m01`, {
-			headers: {
-				'skip_zrok_interstitial': '0'
-			}
-		})
-		.then(response => response.json())
-		.then(data => {
-			const infoDiv = document.getElementById('infotrafic');
-			infoDiv.innerHTML = '';
-			const results = data.disruptions;
-			if (results && results.length > 0) {
-				const newResults = [];
-				results.forEach(element => {
-					if (element.status === "active") {
-						newResults.unshift(element);
-					}
-					else if (element.status === "future") {
-						newResults.push(element);
-					}
-				})
-				newResults.forEach((element, index) => {
-					if (Array.isArray(element.tags) && element.tags.includes('Actualité')) {
-						let messages = element.messages;
-						let titre = '';
-						let contenu = '';
-						let blink = '';
-						messages.forEach(message => {
-							if (message.channel.name === "titre") {
-								titre = message.text;
-							}
-							if (message.channel.name === "moteur") {
-								contenu = message.text;	
-							}
-						});
-						if (titre && contenu) {
-							if (element.cause === "travaux") {
-								if (element.status === "active") {
-									infoDiv.innerHTML += `<h3><span class="integrated perturbation"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
-								}
-								else {
-									infoDiv.innerHTML += `<h3><span class="integrated"><img src="/assets/icons/Perturbation_travaux_NB_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
-								}
-							}
-							else if (element.cause === "perturbation") {
-								if (element.status === "active") {
-									infoDiv.innerHTML += `<h3><span class="integrated perturbation"><img src="/assets/icons/Perturbation_trafic_couleur_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
-								}
-								else {
-									infoDiv.innerHTML += `<h3><span class="integrated"><img src="/assets/icons/Perturbation_trafic_NB_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
-								}
-							}
-							if (!(index === newResults.length - 1)) {
-								infoDiv.innerHTML += '<hr>';
-							}
-						}
-					}
-				});
-			}
-			else {
-				infoDiv.innerHTML = "Aucune perturbation sur votre ligne !";
-			}
-		})
-	</script>
+	<script src="/assets/script/infotrafic.js"></script>
 
 	<script src="/addons/footer.js"></script>
 

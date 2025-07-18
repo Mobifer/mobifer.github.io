@@ -1,11 +1,7 @@
 html, body{
 	height: 100%;
 	margin: 0;
-	flex: 1;
 	padding: 0 5px;
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
 	font-family: "parisine-std", sans-serif;
 	background-image: url('/assets/icons/motif.jpg');
 	background-repeat: repeat;
@@ -541,7 +537,7 @@ a {
 	max-width: 700px;
 	background-color: white !important;
 	box-sizing: border-box;
-	max-width: 800px;
+	max-width: none;
 }
 
 .box.sticky-left {
