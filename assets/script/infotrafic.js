@@ -19,10 +19,10 @@ fetch(`https://apitrafic.share.zrok.io/trafic/${currentLine}`, {
 	if (results && results.length > 0) {
 		const newResults = [];
 		results.forEach(element => {
-			if (element.status === "active") {
+			if (element.status === "active" && element.tags.includes('Actualité')) {
 				newResults.unshift(element);
 			}
-			else if (element.status === "future") {
+			else if (element.status === "future" && element.tags.includes('Actualité')) {
 				newResults.push(element);
 			}
 		})
