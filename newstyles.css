@@ -373,24 +373,33 @@ a {
 	width: fit-content;
 }
 
+.train {
+	font-size: 30px !important;
+}
+
 @media (max-width: 500px) {
 	.terminus-box {
 		font-size: 30px;
+	}
+	.train {
+		font-size: 20px !important;
 	}
 }
 @media (min-width: 400px) {
 	.terminus-box {
 		font-size: 5vw;
 	}
+	.train {
+		font-size: 4vw !important;
+	}
 }
 @media (min-width: 800px) {
 	.terminus-box {
 		font-size: 50px;
+	}	
+	.train {
+		font-size: 30px !important;
 	}
-}
-
-.train {
-	font-size: 30px !important;
 }
 
 /* Pour le slideshow */
