@@ -66,7 +66,7 @@ fetch(`https://apitrafic.share.zrok.io/trafic/${currentLine}`, {
 		});
 	}
 	if (resultCount === 0) {
-		infoDiv.innerHTML += '<p><span class="integrated"><img src="/assets/icons/Trafic_normal_RVB.svg" alt="Trafic normal"></span> Aucune perturbation sur la ligne !</p>';
+		infoDiv.innerHTML += '<p class="centered"><span class="integrated"><img src="/assets/icons/Trafic_normal_RVB.svg" alt="Trafic normal"></span> Aucune perturbation sur la ligne !</p>';
 	}
 })
 
