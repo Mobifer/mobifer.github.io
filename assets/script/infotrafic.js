@@ -19,48 +19,59 @@ fetch(`https://apitrafic.share.zrok.io/trafic/${currentLine}`, {
 	if (results && results.length > 0) {
 		const newResults = [];
 		results.forEach(element => {
-			if (element.status === "active" && element.tags.includes('Actualité')) {
-				newResults.unshift(element);
+			if (element.tags) {
+				if (element.status === "active" && element.tags.includes('Actualité')) {
+					newResults.unshift(element);
+				}
+				else if (element.status === "future" && element.tags.includes('Actualité')) {
+					newResults.push(element);
+				}
 			}
-			else if (element.status === "future" && element.tags.includes('Actualité')) {
-				newResults.push(element);
+			else {
+				if (element.status === "active") {
+					newResults.unshift(element);
+				}
+				else if (element.status === "future") {
+					newResults.push(element);
+				}
 			}
 		})
 		newResults.forEach((element, index) => {
-			if (Array.isArray(element.tags) && element.tags.includes('Actualité')) {
-				resultCount++;
-				let messages = element.messages;
-				let titre = "";
-				let contenu = "";
-				messages.forEach(message => {
-					if (message.channel.name === "titre") {
-						titre = message.text.replace(/'/g, "’");
+			resultCount++;
+			let messages = element.messages;
+			let titre = "";
+			let contenu = "";
+			messages.forEach(message => {
+				if (message.channel.name === "titre") {
+					titre = message.text.replace(/'/g, "’");
+				}
+				if (message.channel.name === "moteur") {
+					contenu = message.text.replace(/'/g, "’");
+				}
+			});
+			console.log(contenu)
+			if (titre && contenu) {
+				if (element.cause === "travaux") {
+					if (element.status === "active") {
+						infoDiv.innerHTML += `<h3 style='margin-bottom: 0;'><span class="integrated perturbation"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
 					}
-					if (message.channel.name === "moteur") {
-						contenu = message.text.replace(/'/g, "’");
+					else {
+						infoDiv.innerHTML += `<h3 style='margin-bottom: 0;'><span class="integrated"><img src="/assets/icons/Perturbation_travaux_NB_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
 					}
-				});
-				console.log(contenu)
-				if (titre && contenu) {
-					if (element.cause === "travaux") {
-						if (element.status === "active") {
-							infoDiv.innerHTML += `<h3 style='margin-bottom: 0;'><span class="integrated perturbation"><img src="/assets/icons/Perturbation_travaux_couleur_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
-						}
-						else {
-							infoDiv.innerHTML += `<h3 style='margin-bottom: 0;'><span class="integrated"><img src="/assets/icons/Perturbation_travaux_NB_RVB.svg" alt="Travaux"></span> ${titre}</h3><br>${contenu}`;
-						}
+				}
+				else if (element.cause === "perturbation") {
+					if (element.status === "active") {
+						infoDiv.innerHTML += `<h3 style='margin-bottom: 0;'><span class="integrated perturbation"><img src="/assets/icons/Perturbation_trafic_couleur_RVB.svg" alt="Perturbation"></span> ${titre}</h3><br>${contenu}`;
 					}
-					else if (element.cause === "perturbation") {
-						if (element.status === "active") {
-							infoDiv.innerHTML += `<h3 style='margin-bottom: 0;'><span class="integrated perturbation"><img src="/assets/icons/Perturbation_trafic_couleur_RVB.svg" alt="Perturbation"></span> ${titre}</h3><br>${contenu}`;
-						}
-						else {
-							infoDiv.innerHTML += `<h3 style='margin-bottom: 0;'><span class="integrated"><img src="/assets/icons/Perturbation_trafic_NB_RVB.svg" alt="Perturbation"></span> ${titre}</h3><br>${contenu}`;
-						}
+					else {
+						infoDiv.innerHTML += `<h3 style='margin-bottom: 0;'><span class="integrated"><img src="/assets/icons/Perturbation_trafic_NB_RVB.svg" alt="Perturbation"></span> ${titre}</h3><br>${contenu}`;
 					}
-					if (!(index === newResults.length - 1)) {
-						infoDiv.innerHTML += '<hr>';
-					}
+				}
+				else if (element.cause === "information") {
+					infoDiv.innerHTML += `<h3 style='margin-bottom: 0;'><span class="integrated"><img src="/assets/icons/Ecran_info_trafic_RVB.svg" alt="Information"></span> ${titre}</h3><br>${contenu}`;
+				}
+				if (!(index === newResults.length - 1)) {
+					infoDiv.innerHTML += '<hr>';
 				}
 			}
 		});
