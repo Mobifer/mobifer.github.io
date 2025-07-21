@@ -27,8 +27,8 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="0.83533532"
-     inkscape:cx="270.55003"
-     inkscape:cy="980.44459"
+     inkscape:cx="146.04913"
+     inkscape:cy="980.4446"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -2221,9 +2221,9 @@
        transform="translate(108.13196,352.56841)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan117718"><tspan
+         id="tspan108499"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan117716">Correspondance</tspan></tspan></text><text
+           id="tspan108497">Correspondance</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -2232,7 +2232,7 @@
        transform="translate(13.851064,336.37854)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan117720">Grandes Lignes</tspan></text><text
+         id="tspan108501">Grandes Lignes</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:start;text-anchor:start;white-space:pre;inline-size:76.8379;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="-24.267883"
@@ -2241,15 +2241,15 @@
        transform="translate(158.16879,412.3637)"><tspan
          x="-24.267883"
          y="209.78712"
-         id="tspan117724"><tspan
+         id="tspan108505"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan117722">Correspondance
+           id="tspan108503">Correspondance
 </tspan></tspan><tspan
          x="-24.267883"
          y="219.78712"
-         id="tspan117728"><tspan
+         id="tspan108509"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan117726">direction Levallois</tspan></tspan></text><text
+           id="tspan108507">direction Levallois</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:76.2454;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -2258,9 +2258,9 @@
        transform="translate(108.13196,362.58054)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan117732"><tspan
+         id="tspan108513"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan117730">direction Gallieni</tspan></tspan></text><text
+           id="tspan108511">direction Gallieni</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';text-align:start;text-anchor:start;white-space:pre;inline-size:76.8379;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="-24.267883"
@@ -2269,7 +2269,7 @@
        transform="translate(216.10116,147.4112)"><tspan
          x="-24.267883"
          y="209.78712"
-         id="tspan117734">Pereire – Levallois</tspan></text><g
+         id="tspan108515">Pereire – Levallois</tspan></text><g
        inkscape:groupmode="layer"
        id="layer4"
        inkscape:label="Temps de marche"

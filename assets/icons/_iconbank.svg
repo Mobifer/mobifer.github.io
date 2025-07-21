@@ -25,9 +25,9 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="1.9758396"
-     inkscape:cx="287.47274"
-     inkscape:cy="158.41367"
+     inkscape:zoom="2.7942592"
+     inkscape:cx="212.93658"
+     inkscape:cy="85.53251"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -638,20 +638,18 @@
        y="0" />
     <clipPath
        id="SVGID_00000019678980554729327780000004210154124078203023_">
-		<use
-   xlink:href="#SVGID_1_-67"
-   style="overflow:visible"
-   id="use1971" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_-67"
+         style="overflow:visible"
+         id="use1971" />
+    </clipPath>
     <clipPath
        id="clipPath2630">
-		<use
-   xlink:href="#SVGID_1_-67"
-   style="overflow:visible"
-   id="use2628" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_-67"
+         style="overflow:visible"
+         id="use2628" />
+    </clipPath>
     <rect
        id="SVGID_1_-67"
        width="283.5"
@@ -660,20 +658,18 @@
        y="0" />
     <clipPath
        id="SVGID_00000129888476219721827950000011053941370519129220_">
-		<use
-   xlink:href="#SVGID_1_-356"
-   style="overflow:visible"
-   id="use2107" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_-356"
+         style="overflow:visible"
+         id="use2107" />
+    </clipPath>
     <clipPath
        id="clipPath3294">
-		<use
-   xlink:href="#SVGID_1_-356"
-   style="overflow:visible"
-   id="use3292" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_-356"
+         style="overflow:visible"
+         id="use3292" />
+    </clipPath>
     <rect
        id="SVGID_1_-356"
        width="283.5"
@@ -682,20 +678,18 @@
        y="0" />
     <clipPath
        id="SVGID_00000076575012964202097770000007851824799138045861_">
-		<use
-   xlink:href="#SVGID_1_-12"
-   style="overflow:visible"
-   id="use2243" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_-12"
+         style="overflow:visible"
+         id="use2243" />
+    </clipPath>
     <clipPath
        id="clipPath3463">
-		<use
-   xlink:href="#SVGID_1_-12"
-   style="overflow:visible"
-   id="use3461" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_-12"
+         style="overflow:visible"
+         id="use3461" />
+    </clipPath>
     <rect
        id="SVGID_1_-12"
        width="283.5"
@@ -704,52 +698,66 @@
        y="0" />
     <clipPath
        id="SVGID_00000131350927939289745970000003203673322947402127_-6">
-		<use
-   xlink:href="#SVGID_1_"
-   style="overflow:visible"
-   id="use49095" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_"
+         style="overflow:visible"
+         id="use49095" />
+    </clipPath>
     <clipPath
        id="clipPath8633">
-		<use
-   xlink:href="#SVGID_1_"
-   style="overflow:visible"
-   id="use8631" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_"
+         style="overflow:visible"
+         id="use8631" />
+    </clipPath>
     <clipPath
        id="SVGID_00000085972433664928841230000013839026464737200560_-7">
-		<use
-   xlink:href="#SVGID_1_-5"
-   style="overflow:visible"
-   id="use19100" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_-5"
+         style="overflow:visible"
+         id="use19100" />
+    </clipPath>
     <clipPath
        id="clipPath8803">
-		<use
-   xlink:href="#SVGID_1_-5"
-   style="overflow:visible"
-   id="use8801" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_-5"
+         style="overflow:visible"
+         id="use8801" />
+    </clipPath>
     <clipPath
        id="SVGID_00000131350927939289745970000003203673322947402127_-2">
-		<use
-   xlink:href="#SVGID_1_"
-   style="overflow:visible"
-   id="use49095-3" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_"
+         style="overflow:visible"
+         id="use49095-3" />
+    </clipPath>
     <clipPath
        id="clipPath8951">
-		<use
-   xlink:href="#SVGID_1_"
-   style="overflow:visible"
-   id="use8949" />
-
-	</clipPath>
+      <use
+         xlink:href="#SVGID_1_"
+         style="overflow:visible"
+         id="use8949" />
+    </clipPath>
+    <clipPath
+       id="SVGID_00000131350927939289745970000003203673322947402127_-5">
+      <use
+         xlink:href="#SVGID_1_-28"
+         style="overflow:visible"
+         id="use19231-3" />
+    </clipPath>
+    <clipPath
+       id="clipPath18779">
+      <use
+         xlink:href="#SVGID_1_-28"
+         style="overflow:visible"
+         id="use18777" />
+    </clipPath>
+    <rect
+       id="rect22398-2"
+       width="283.5"
+       height="283.5"
+       x="0"
+       y="0" />
   </defs>
   <g
      inkscape:label="Calque 1"
@@ -2295,38 +2303,32 @@
            ry="0" />
         <g
            id="g1978">
-	<defs
-   id="defs1969">
-		<rect
-   id="rect2702"
-   width="283.5"
-   height="283.5"
-   x="0"
-   y="0" />
-
-	</defs>
-
-	<clipPath
-   id="clipPath2639">
-		<use
-   xlink:href="#SVGID_1_-67"
-   style="overflow:visible"
-   id="use2637" />
-
-	</clipPath>
-
-	<path
-   d="M 81,107.5 V 197 H 56.9 V 107.4 H 23.3 V 87.8 h 91.3 v 19.6 H 81 Z m 88,89.5 v -85.8 c -6.7,5.3 -17.2,10.4 -24.4,13.6 l -7.4,-16.7 c 11.4,-4.8 25.2,-12.1 36,-20.3 h 19 V 197 Z m 68,0 v -85.8 c -6.6,5.3 -17.2,10.4 -24.4,13.6 l -7.4,-16.7 c 11.4,-4.8 25.2,-12.1 36,-20.3 h 19 V 197 Z"
-   clip-path="url(#SVGID_00000019678980554729327780000004210154124078203023_)"
-   id="path1974" />
-
-	<path
-   style="fill:#ff5a00"
-   d="M 269.3,42.5 H 14.2 C 6.3,42.5 0,36.2 0,28.3 V 14.2 C 0,6.3 6.3,0 14.2,0 h 255.1 c 7.8,0 14.2,6.3 14.2,14.2 v 14.2 c 0,7.8 -6.4,14.1 -14.2,14.1 m 14.2,226.8 v -14.2 c 0,-7.8 -6.3,-14.2 -14.2,-14.2 H 14.2 C 6.4,240.9 0,247.2 0,255.1 v 14.2 c 0,7.8 6.3,14.2 14.2,14.2 h 255.1 c 7.8,0 14.2,-6.4 14.2,-14.2"
-   clip-path="url(#SVGID_00000019678980554729327780000004210154124078203023_)"
-   id="path1976" />
-
-</g>
+          <defs
+             id="defs1969">
+            <rect
+               id="rect2702"
+               width="283.5"
+               height="283.5"
+               x="0"
+               y="0" />
+          </defs>
+          <clipPath
+             id="clipPath2639">
+            <use
+               xlink:href="#SVGID_1_-67"
+               style="overflow:visible"
+               id="use2637" />
+          </clipPath>
+          <path
+             d="M 81,107.5 V 197 H 56.9 V 107.4 H 23.3 V 87.8 h 91.3 v 19.6 H 81 Z m 88,89.5 v -85.8 c -6.7,5.3 -17.2,10.4 -24.4,13.6 l -7.4,-16.7 c 11.4,-4.8 25.2,-12.1 36,-20.3 h 19 V 197 Z m 68,0 v -85.8 c -6.6,5.3 -17.2,10.4 -24.4,13.6 l -7.4,-16.7 c 11.4,-4.8 25.2,-12.1 36,-20.3 h 19 V 197 Z"
+             clip-path="url(#SVGID_00000019678980554729327780000004210154124078203023_)"
+             id="path1974" />
+          <path
+             style="fill:#ff5a00"
+             d="M 269.3,42.5 H 14.2 C 6.3,42.5 0,36.2 0,28.3 V 14.2 C 0,6.3 6.3,0 14.2,0 h 255.1 c 7.8,0 14.2,6.3 14.2,14.2 v 14.2 c 0,7.8 -6.4,14.1 -14.2,14.1 m 14.2,226.8 v -14.2 c 0,-7.8 -6.3,-14.2 -14.2,-14.2 H 14.2 C 6.4,240.9 0,247.2 0,255.1 v 14.2 c 0,7.8 6.3,14.2 14.2,14.2 h 255.1 c 7.8,0 14.2,-6.4 14.2,-14.2"
+             clip-path="url(#SVGID_00000019678980554729327780000004210154124078203023_)"
+             id="path1976" />
+        </g>
       </g>
     </a>
     <a
@@ -2346,38 +2348,32 @@
            ry="0" />
         <g
            id="g2114">
-	<defs
-   id="defs2105">
-		<rect
-   id="rect3366"
-   width="283.5"
-   height="283.5"
-   x="0"
-   y="0" />
-
-	</defs>
-
-	<clipPath
-   id="clipPath3303">
-		<use
-   xlink:href="#SVGID_1_-356"
-   style="overflow:visible"
-   id="use3301" />
-
-	</clipPath>
-
-	<path
-   d="M 70.4,107.5 V 197 H 46.3 V 107.4 H 12.7 V 87.8 H 104 v 19.6 H 70.4 Z m 88,89.5 v -85.8 c -6.6,5.3 -17.2,10.4 -24.4,13.6 l -7.4,-16.7 c 11.4,-4.8 25.2,-12.1 36,-20.3 h 19 V 197 Z m 41.5,0 v -14.4 c 2.8,-12.7 15.3,-24.3 29.8,-37 7.3,-6.3 15.2,-14.2 15.2,-24.8 0,-9.4 -6.2,-17.3 -18.1,-17.3 -9.6,0 -16.2,7 -18.9,9.9 L 196.5,98.2 c 10.5,-9.1 20.3,-13.5 35,-13.5 19.2,0 37.3,11.1 37.3,33.4 0,18.7 -11.9,27.5 -25.1,39.4 -5.6,5.1 -16.5,14.7 -17.9,21 h 45 V 197 Z"
-   clip-path="url(#SVGID_00000129888476219721827950000011053941370519129220_)"
-   id="path2110" />
-
-	<path
-   style="fill:#a50034"
-   d="M 269.3,42.5 H 14.2 C 6.3,42.5 0,36.2 0,28.3 V 14.2 C 0,6.3 6.3,0 14.2,0 h 255.1 c 7.8,0 14.2,6.3 14.2,14.2 v 14.2 c 0,7.8 -6.4,14.1 -14.2,14.1 m 14.2,226.8 v -14.2 c 0,-7.8 -6.3,-14.2 -14.2,-14.2 H 14.2 C 6.4,240.9 0,247.2 0,255.1 v 14.2 c 0,7.8 6.3,14.2 14.2,14.2 h 255.1 c 7.8,0 14.2,-6.4 14.2,-14.2"
-   clip-path="url(#SVGID_00000129888476219721827950000011053941370519129220_)"
-   id="path2112" />
-
-</g>
+          <defs
+             id="defs2105">
+            <rect
+               id="rect3366"
+               width="283.5"
+               height="283.5"
+               x="0"
+               y="0" />
+          </defs>
+          <clipPath
+             id="clipPath3303">
+            <use
+               xlink:href="#SVGID_1_-356"
+               style="overflow:visible"
+               id="use3301" />
+          </clipPath>
+          <path
+             d="M 70.4,107.5 V 197 H 46.3 V 107.4 H 12.7 V 87.8 H 104 v 19.6 H 70.4 Z m 88,89.5 v -85.8 c -6.6,5.3 -17.2,10.4 -24.4,13.6 l -7.4,-16.7 c 11.4,-4.8 25.2,-12.1 36,-20.3 h 19 V 197 Z m 41.5,0 v -14.4 c 2.8,-12.7 15.3,-24.3 29.8,-37 7.3,-6.3 15.2,-14.2 15.2,-24.8 0,-9.4 -6.2,-17.3 -18.1,-17.3 -9.6,0 -16.2,7 -18.9,9.9 L 196.5,98.2 c 10.5,-9.1 20.3,-13.5 35,-13.5 19.2,0 37.3,11.1 37.3,33.4 0,18.7 -11.9,27.5 -25.1,39.4 -5.6,5.1 -16.5,14.7 -17.9,21 h 45 V 197 Z"
+             clip-path="url(#SVGID_00000129888476219721827950000011053941370519129220_)"
+             id="path2110" />
+          <path
+             style="fill:#a50034"
+             d="M 269.3,42.5 H 14.2 C 6.3,42.5 0,36.2 0,28.3 V 14.2 C 0,6.3 6.3,0 14.2,0 h 255.1 c 7.8,0 14.2,6.3 14.2,14.2 v 14.2 c 0,7.8 -6.4,14.1 -14.2,14.1 m 14.2,226.8 v -14.2 c 0,-7.8 -6.3,-14.2 -14.2,-14.2 H 14.2 C 6.4,240.9 0,247.2 0,255.1 v 14.2 c 0,7.8 6.3,14.2 14.2,14.2 h 255.1 c 7.8,0 14.2,-6.4 14.2,-14.2"
+             clip-path="url(#SVGID_00000129888476219721827950000011053941370519129220_)"
+             id="path2112" />
+        </g>
       </g>
     </a>
     <a
@@ -2397,38 +2393,32 @@
            ry="0" />
         <g
            id="g2250">
-	<defs
-   id="defs2241">
-		<rect
-   id="rect3535"
-   width="283.5"
-   height="283.5"
-   x="0"
-   y="0" />
-
-	</defs>
-
-	<clipPath
-   id="clipPath3472">
-		<use
-   xlink:href="#SVGID_1_-12"
-   style="overflow:visible"
-   id="use3470" />
-
-	</clipPath>
-
-	<path
-   d="M 70.3,107.5 V 197 H 46.2 V 107.4 H 12.6 V 87.8 h 91.3 v 19.6 H 70.3 Z m 88,89.5 v -85.8 c -6.6,5.3 -17.2,10.4 -24.4,13.6 l -7.4,-16.7 c 11.4,-4.8 25.2,-12.1 36,-20.3 h 19 V 197 Z m 70,2.6 c -15.6,0 -24.3,-3.9 -31.6,-8.2 l 8.5,-16.9 c 4.6,3.2 12.2,7.1 21.5,7.1 12.7,0 20.6,-7.4 20.6,-16.7 0,-12.5 -9.6,-16.9 -20.7,-16.9 h -11.3 v -18 h 11.4 c 10.7,0 17.3,-5.6 17.3,-13.9 0,-7 -5.3,-13.3 -16.7,-13.3 -10.1,0 -16.7,4.8 -20.3,7.9 l -7.9,-16.1 c 9.3,-6.2 19.3,-9.7 33.1,-9.7 22.3,0 35,13.3 35,27.8 0,11.3 -6,20.3 -17.6,24.6 v 0.3 c 12.1,2.3 21.2,11.6 21.2,26.9 0.1,19.2 -17.1,35.1 -42.5,35.1"
-   clip-path="url(#SVGID_00000076575012964202097770000007851824799138045861_)"
-   id="path2246" />
-
-	<path
-   style="fill:#6e491e"
-   d="M 269.3,42.5 H 14.2 C 6.3,42.5 0,36.2 0,28.3 V 14.2 C 0,6.3 6.3,0 14.2,0 h 255.1 c 7.8,0 14.2,6.3 14.2,14.2 v 14.2 c 0,7.8 -6.4,14.1 -14.2,14.1 m 14.2,226.8 v -14.2 c 0,-7.8 -6.3,-14.2 -14.2,-14.2 H 14.2 C 6.4,240.9 0,247.2 0,255.1 v 14.2 c 0,7.8 6.3,14.2 14.2,14.2 h 255.1 c 7.8,0 14.2,-6.4 14.2,-14.2"
-   clip-path="url(#SVGID_00000076575012964202097770000007851824799138045861_)"
-   id="path2248" />
-
-</g>
+          <defs
+             id="defs2241">
+            <rect
+               id="rect3535"
+               width="283.5"
+               height="283.5"
+               x="0"
+               y="0" />
+          </defs>
+          <clipPath
+             id="clipPath3472">
+            <use
+               xlink:href="#SVGID_1_-12"
+               style="overflow:visible"
+               id="use3470" />
+          </clipPath>
+          <path
+             d="M 70.3,107.5 V 197 H 46.2 V 107.4 H 12.6 V 87.8 h 91.3 v 19.6 H 70.3 Z m 88,89.5 v -85.8 c -6.6,5.3 -17.2,10.4 -24.4,13.6 l -7.4,-16.7 c 11.4,-4.8 25.2,-12.1 36,-20.3 h 19 V 197 Z m 70,2.6 c -15.6,0 -24.3,-3.9 -31.6,-8.2 l 8.5,-16.9 c 4.6,3.2 12.2,7.1 21.5,7.1 12.7,0 20.6,-7.4 20.6,-16.7 0,-12.5 -9.6,-16.9 -20.7,-16.9 h -11.3 v -18 h 11.4 c 10.7,0 17.3,-5.6 17.3,-13.9 0,-7 -5.3,-13.3 -16.7,-13.3 -10.1,0 -16.7,4.8 -20.3,7.9 l -7.9,-16.1 c 9.3,-6.2 19.3,-9.7 33.1,-9.7 22.3,0 35,13.3 35,27.8 0,11.3 -6,20.3 -17.6,24.6 v 0.3 c 12.1,2.3 21.2,11.6 21.2,26.9 0.1,19.2 -17.1,35.1 -42.5,35.1"
+             clip-path="url(#SVGID_00000076575012964202097770000007851824799138045861_)"
+             id="path2246" />
+          <path
+             style="fill:#6e491e"
+             d="M 269.3,42.5 H 14.2 C 6.3,42.5 0,36.2 0,28.3 V 14.2 C 0,6.3 6.3,0 14.2,0 h 255.1 c 7.8,0 14.2,6.3 14.2,14.2 v 14.2 c 0,7.8 -6.4,14.1 -14.2,14.1 m 14.2,226.8 v -14.2 c 0,-7.8 -6.3,-14.2 -14.2,-14.2 H 14.2 C 6.4,240.9 0,247.2 0,255.1 v 14.2 c 0,7.8 6.3,14.2 14.2,14.2 h 255.1 c 7.8,0 14.2,-6.4 14.2,-14.2"
+             clip-path="url(#SVGID_00000076575012964202097770000007851824799138045861_)"
+             id="path2248" />
+        </g>
       </g>
     </a>
     <a

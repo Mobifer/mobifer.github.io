@@ -26,8 +26,8 @@
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
      inkscape:zoom="1.9158517"
-     inkscape:cx="304.82526"
-     inkscape:cy="480.20418"
+     inkscape:cx="250.54131"
+     inkscape:cy="1434.349"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -2741,15 +2741,15 @@
        transform="translate(38.430951,77.371868)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan97317"><tspan
+         id="tspan107061"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan97315">Nanterre
+           id="tspan107059">Nanterre
 </tspan></tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan97321"><tspan
+         id="tspan107065"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan97319">Préfecture</tspan></tspan></text><text
+           id="tspan107063">Préfecture</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="137.48022"
@@ -2847,9 +2847,9 @@
        transform="translate(166.85511,1061.9629)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan97325"><tspan
+         id="tspan107069"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan97323">Vincennes</tspan></tspan></text><text
+           id="tspan107067">Vincennes</tspan></tspan></text><text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std';text-align:end;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke-width:9.44882"
        x="439.90939"
@@ -2918,11 +2918,11 @@
        transform="translate(1.9009208,824.59872)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan97327">Grandes
+         id="tspan107071">Grandes
 </tspan><tspan
          x="43.212147"
          y="219.78712"
-         id="tspan97329">Lignes</tspan></text><path
+         id="tspan107073">Lignes</tspan></text><path
        style="display:inline;fill:#25303b;stroke:#25303b;stroke-width:0.755905;stroke-linecap:square;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 314.27798,391.8739 H 566.55109"
        id="path42057" /><text
@@ -2993,9 +2993,9 @@
        transform="translate(375.67552,-71.216234)"><tspan
          x="540.86652"
          y="126.19367"
-         id="tspan97333"><tspan
+         id="tspan107077"><tspan
            style="text-align:start;text-anchor:start"
-           id="tspan97331">La Garenne</tspan></tspan></text><text
+           id="tspan107075">La Garenne</tspan></tspan></text><text
        xml:space="preserve"
        id="text47021"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Italic';text-align:start;white-space:pre;shape-inside:url(#rect47023);display:inline;fill:#25303b;stroke-width:0.755906" /><text
@@ -3007,9 +3007,9 @@
        transform="translate(384.19819,-59.216231)"><tspan
          x="540.86652"
          y="126.19367"
-         id="tspan97337"><tspan
+         id="tspan107081"><tspan
            style="text-align:start;text-anchor:start"
-           id="tspan97335">Colombes</tspan></tspan></text><path
+           id="tspan107079">Colombes</tspan></tspan></text><path
        style="display:inline;fill:#25303b;stroke:#25303b;stroke-width:0.755905;stroke-linecap:square;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 357.74965,111.8739 H 566.61884"
        id="path47031" /><text
@@ -3929,9 +3929,9 @@
        transform="translate(166.85511,1019.4431)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan97341"><tspan
+         id="tspan107085"><tspan
            style="font-style:normal;-inkscape-font-specification:'Parisine Std Bold'"
-           id="tspan97339">Vincennes</tspan></tspan></text><a
+           id="tspan107083">Vincennes</tspan></tspan></text><a
        id="a27089"
        xlink:href="/stations.html?station=Berault"
        target="_parent"
