@@ -1,80 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Illustrator 26.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-
 <svg
+   width="250px"
+   height="250px"
+   viewBox="0 0 283.46 283.46"
    version="1.1"
-   id="Layer_1"
-   x="0px"
-   y="0px"
-   viewBox="0 0 283.5 283.5"
-   style="enable-background:new 0 0 283.5 283.5;"
-   xml:space="preserve"
-   sodipodi:docname="tram_T10_couleur_RVB.svg"
+   id="svg70682"
+   sodipodi:docname="tram_T10_couleur_RVB (1).svg"
    inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg"><defs
-   id="defs20462" /><sodipodi:namedview
-   id="namedview20460"
-   pagecolor="#505050"
-   bordercolor="#eeeeee"
-   borderopacity="1"
-   inkscape:showpageshadow="0"
-   inkscape:pageopacity="0"
-   inkscape:pagecheckerboard="0"
-   inkscape:deskcolor="#505050"
-   showgrid="false"
-   inkscape:zoom="1.652852"
-   inkscape:cx="91.962257"
-   inkscape:cy="211.15018"
-   inkscape:window-width="1920"
-   inkscape:window-height="1008"
-   inkscape:window-x="0"
-   inkscape:window-y="0"
-   inkscape:window-maximized="1"
-   inkscape:current-layer="Layer_1" />
-<style
-   type="text/css"
-   id="style20445">
-	.st0{clip-path:url(#SVGID_00000054247900654135775150000010629443897215032736_);}
-	.st1{clip-path:url(#SVGID_00000054247900654135775150000010629443897215032736_);fill:#6E6E00;}
-</style>
-<g
-   id="g2582"><rect
-     style="fill:#ffffff;fill-opacity:1;stroke-width:4.5568"
-     id="rect346"
-     width="283.5"
-     height="235.46899"
-     x="0"
-     y="24.246258"
-     ry="0" /><g
-     id="g20457">
-	<defs
-   id="defs20448">
-		<rect
-   id="SVGID_1_"
-   width="283.5"
-   height="283.5"
-   x="0"
-   y="0" />
-	</defs>
-	<clipPath
-   id="SVGID_00000178163587188410358230000006183876827708797583_">
-		<use
-   xlink:href="#SVGID_1_"
-   style="overflow:visible"
-   id="use20450" />
-	</clipPath>
-	<path
-   d="m 67.4,107.6 v 89.6 H 43.3 V 107.6 H 9.8 V 87.9 H 101 v 19.6 H 67.4 Z m 88,89.5 v -85.8 c -6.6,5.3 -17.2,10.4 -24.4,13.6 l -7.4,-16.7 c 11.4,-4.8 25.2,-12.1 36,-20.3 h 19 v 109.2 z m 78.2,3 c -32.9,0 -39.4,-32.5 -39.4,-57.7 0,-25.2 7.1,-57.7 40.1,-57.7 32.9,0 39.4,32.5 39.4,57.7 0,25.2 -7.1,57.7 -40.1,57.7 m 0.4,-97 c -15.8,0 -16.2,28.2 -16.2,39.3 0,11 0.8,39.4 16.2,39.4 15.4,0 16.1,-28.6 16.1,-39.4 -0.1,-11.5 -0.5,-39.3 -16.1,-39.3"
-   clip-path="url(#SVGID_00000178163587188410358230000006183876827708797583_)"
-   id="path20453" />
-	<path
-   style="fill:#6e6e00"
-   d="M 269.3,42.5 H 14.2 C 6.3,42.5 0,36.2 0,28.3 V 14.2 C 0,6.3 6.3,0 14.2,0 h 255.1 c 7.8,0 14.2,6.3 14.2,14.2 v 14.2 c 0,7.8 -6.4,14.1 -14.2,14.1 m 14.2,226.8 v -14.2 c 0,-7.8 -6.3,-14.2 -14.2,-14.2 H 14.2 C 6.4,240.9 0,247.2 0,255.1 v 14.2 c 0,7.8 6.3,14.2 14.2,14.2 h 255.1 c 7.8,0 14.2,-6.4 14.2,-14.2"
-   clip-path="url(#SVGID_00000178163587188410358230000006183876827708797583_)"
-   id="path20455" />
-</g></g>
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs70686" />
+  <sodipodi:namedview
+     id="namedview70684"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="1.9757791"
+     inkscape:cx="70.351993"
+     inkscape:cy="197.39048"
+     inkscape:window-width="960"
+     inkscape:window-height="1008"
+     inkscape:window-x="960"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg70682" />
+  <title
+     id="title70672">Paris transit icons - Tram T10</title>
+  <g
+     id="g81745">
+    <path
+       fill="#FFF"
+       d="M0,28.35h283.46v226.76H0z"
+       id="path70674" />
+    <rect
+       fill="#9F9825"
+       width="283.46"
+       height="42.52"
+       rx="14.17"
+       id="rect70676"
+       style="fill:#6e6e00;fill-opacity:1" />
+    <rect
+       fill="#9F9825"
+       width="283.46"
+       height="42.52"
+       rx="14.17"
+       y="240.94"
+       id="rect70678"
+       style="fill:#6e6e00;fill-opacity:1" />
+    <path
+       fill="#25303B"
+       d="M67.45,107.45V197H43.32V107.45H9.75V87.81H101v19.64ZM155.42,197V111.16c-6.65,5.26-17.17,10.36-24.44,13.61l-7.43-16.71c11.45-4.79,25.22-12,36-20.25h19V197ZM233.65,199.94c-33,0-39.44-32.48-39.44-57.69s7.11-57.69,40.06-57.69,39.44,32.48,39.44,57.69S266.59,199.94,233.65,199.94Zm.31-97c-15.78,0-16.24,28.15-16.24,39.29s.77,39.44,16.24,39.44,16.09-28.61,16.09-39.44C250.05,130.8,249.58,103,234,103Z"
+       id="path70680"
+       style="fill:#000000;fill-opacity:1" />
+  </g>
 </svg>
