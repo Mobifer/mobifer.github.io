@@ -199,8 +199,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			// Add license at the end, after all boxes
 			html += `</div>
-						<div class="license" style="margin-top: 2px !important; margin-bottom: 8px;">
-							Reproduction du visuel officiel, proposée par <a href="https://enrail.org">enrail.org</a> (Métro, RER et Transilien), <a href="https://prochainstrains.arno.cl">Prochains Trains</a> (RER et Transilien) et MobiFer (Tramway)
+						<div class="license" style="margin-top: 0px !important; margin-bottom: 10px !important;">
+							Reproductions des panneaux officiels proposées par <a href="https://enrail.org">enrail.org</a> (Métro), <a href="https://prochainstrains.arno.cl">Prochains Trains</a> (RER et Transilien) et MobiFer (Tramway)
 						</div></div></div>`;
 			}
 

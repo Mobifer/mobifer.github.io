@@ -26,9 +26,9 @@
      inkscape:pagecheckerboard="false"
      inkscape:deskcolor="#505050"
      inkscape:document-units="mm"
-     inkscape:zoom="0.74940045"
-     inkscape:cx="-1.3344001"
-     inkscape:cy="966.10564"
+     inkscape:zoom="0.92234182"
+     inkscape:cx="68.304395"
+     inkscape:cy="411.99476"
      inkscape:window-width="1920"
      inkscape:window-height="1008"
      inkscape:window-x="0"
@@ -1130,7 +1130,7 @@
        cy="186.31415"
        r="10.3937" /><a
        id="a44640"
-       xlink:href="/stations.html?station=Bobigny-Pantin-Raimond+Queneau"
+       xlink:href="/stations.html?station=Bobigny-Pantin-Raymond+Queneau"
        target="_parent"
        transform="translate(33.46418,161.79571)"
        style="fill:#ff5a00;fill-opacity:1"><circle
@@ -2443,7 +2443,7 @@
        transform="translate(22.169196,-71.418892)"><tspan
          x="540.86652"
          y="126.19367"
-         id="tspan41545">Drancy</tspan></text><text
+         id="tspan4485">Drancy</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.6667px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:407.393;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="540.86652"
@@ -2452,7 +2452,7 @@
        transform="translate(22.169198,-28.304412)"><tspan
          x="540.86652"
          y="126.19367"
-         id="tspan41547">Bobigny</tspan></text><path
+         id="tspan4487">Bobigny</tspan></text><path
        style="display:inline;fill:#25303b;stroke:#25303b;stroke-width:0.755905;stroke-linecap:square;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        d="M 314.27802,279.87311 H 566.55113"
        id="path42057" /><text
@@ -2543,7 +2543,7 @@
        transform="translate(56.304752,385.39192)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan41549">Grandes</tspan></text><text
+         id="tspan4489">Grandes</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:36.7828;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -2552,7 +2552,7 @@
        transform="translate(56.304752,395.39192)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan41551">Lignes</tspan></text><text
+         id="tspan4491">Lignes</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:64.7999;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -2561,7 +2561,7 @@
        transform="translate(11.851062,369.49792)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan41553">Grandes Lignes</tspan></text><g
+         id="tspan4493">Grandes Lignes</tspan></text><g
        inkscape:groupmode="layer"
        id="layer3"
        inkscape:label="Temps de marche"
@@ -2817,7 +2817,7 @@
        transform="translate(81.631511,687.49569)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan41555">Grandes</tspan></text><text
+         id="tspan4495">Grandes</tspan></text><text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold Italic';text-align:end;text-anchor:end;white-space:pre;inline-size:36.7828;display:inline;fill:#25303b;fill-opacity:1;stroke-width:9.44882"
        x="43.212147"
@@ -2826,7 +2826,7 @@
        transform="translate(81.631511,697.49569)"><tspan
          x="43.212147"
          y="209.78712"
-         id="tspan41557">Lignes</tspan></text><text
+         id="tspan4497">Lignes</tspan></text><text
        xml:space="preserve"
        style="font-weight:bold;font-size:8px;font-family:'Parisine Std';-inkscape-font-specification:'Parisine Std Bold';fill:#25303b;stroke-width:22.6772"
        x="177.10501"
