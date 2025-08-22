@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
 			html += `</p>
 				<div class="row">
 				<div class="item">
-				<img src="${station.img}" alt="Photo de la station" style="width: 100% !important; border-radius: 10px;" class="image-center">
+				<img src="${station.img}" alt="Photo de la station" style="width: 100% !important; border-radius: 10px; margin-top: 10px;" class="image-center">
 				<div class="license">© ${station.imga} sur <a href="${station.imgp}">Wikimedia Commons</a></div>
 				</div>`;
 

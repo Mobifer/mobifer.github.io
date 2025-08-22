@@ -263,6 +263,10 @@ a {
     background-color: white;;
 }
 
+.blue-box .repere {
+	background-color: unset;
+}
+
 .ptinteret {
 	background-color: #6e4823 !important;
 	border-radius: 5px;
