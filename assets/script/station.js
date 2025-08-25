@@ -38,13 +38,33 @@ document.addEventListener("DOMContentLoaded", function () {
 				html += `<br><span class="repere" style="font-size: 30px; border: 5px solid black !important; font-weight: bold; border-radius: 5px;">${station.rep}</span>`;
 			}
 
-
+			
 			html += `</p>
 				<div class="row">
-				<div class="item">
-				<img src="${station.img}" alt="Photo de la station" style="width: 100% !important; border-radius: 10px; margin-top: 10px;" class="image-center">
-				<div class="license">© ${station.imga} sur <a href="${station.imgp}">Wikimedia Commons</a></div>
-				</div>`;
+				<div class="item">`
+			
+			if (Array.isArray(station.img) && station.img.length > 0) {
+				html += `<div class="slideshow-container">`
+				station.img.forEach((img, index) => {
+					html += `<div class="slide fade">
+						<img src="${img}" alt="Photo de la station">`
+					if (station.imgsrc?.[index]) { // Only run if station.imgsrc[index] exists
+						html += `<div class="caption">© ${station.imga[index]} sur ${station.imgsrc[index]}</div>`
+					} else {
+						html += `<div class="caption">© ${station.imga[index]} sur <a href="${station.imgp}">Wikimedia Commons</a></div>`
+					}
+					html += `</div>`
+				});
+				html += '</div>'
+			} else {
+				html += `<img src="${station.img}" alt="Photo de la station" style="width: 100%; max-width: 800px; border-radius: 10px; margin-top: 10px;" class="image-center">`
+				if (station.imgsrc) {
+					html += `<div class="license">© ${station.imga} sur ${station.imgsrc}</div>`
+				} else {
+					html += `<div class="license">© ${station.imga} sur <a href="${station.imgp}">Wikimedia Commons</a></div>`
+				}
+			}
+			html += `</div>`
 
 			// Génération des sorties
 			html += `<div class="item">
@@ -205,6 +225,29 @@ document.addEventListener("DOMContentLoaded", function () {
 			}
 
 			document.getElementById("station-content").innerHTML = html;
+
+			// Initialize slideshow after DOM update
+			if (Array.isArray(station.img) && station.img.length > 0) {
+				let slideIndex = 0;
+				const slides = document.getElementsByClassName("slide");
+
+				function showSlides(slide) {
+					for (let i = 0; i < slides.length; i++) {
+						slides[i].classList.remove("active");
+					}
+
+					slideIndex++;
+					if (slideIndex > slides.length) { slideIndex = 1; }
+
+					if (slides.length > 0) {
+						slides[slideIndex - 1].classList.add("active");
+					}
+
+					setTimeout(showSlides, 3000); // or any interval you like
+				}
+
+				showSlides();
+			}
 		})
 		.catch(error => console.error("Erreur de chargement des données:", error));
 });
