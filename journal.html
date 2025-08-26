@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
     <meta property="og:title" content="PériscoFer – Le Journal de MobiFer" />
-	<meta property="og:description" content="Périscofer – Le Journal de MobiFer est un journal visant à donner la voix à la communauté MobiFer pour partager l’actualité ferroviaire francilienne ou des expériences personnelles." />
+	<meta property="og:description" content="PériscoFer – Le Journal de MobiFer est un journal visant à donner la voix à la communauté MobiFer pour partager l’actualité ferroviaire francilienne ou des expériences personnelles." />
     <meta property="og:image" content="https://mobifer.github.io/assets/periscofer.png" />
     <title>PériscoFer – Le Journal de MobiFer</title>
     <style>
@@ -67,7 +67,7 @@
                     <img src="${article.titleImage}" alt="Image principale" class="article-img">
                     <p class="author">Écrit par&nbsp;: ${article.author}</p>
                     <p class="date">Publié le&nbsp;: ${article.date}</p>
-                    ${article.lastMod ? `<p class="date">Dernière modification le&nbsp;:${article.lastMod}</p>` : ''}
+                    ${article.lastMod ? `<p class="date">Dernière modification le&nbsp;: ${article.lastMod}</p>` : ''}
                     ${article.paragraphs.map(p => `
                         <h3>${p.title}</h3>
                         <p style='text-align: justify'>${p.content}</p>
